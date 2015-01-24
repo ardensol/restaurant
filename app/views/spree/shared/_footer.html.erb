@@ -6,10 +6,10 @@
         <div class="col-md-2 col-sm-6">
           <h5>Information</h5>
           <ul>
-            <li><a href="about.html">About Us</a></li>
+            <li><a href="/about">About Us</a></li>
             <li><a href="#">Delivery Information</a></li>
             <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms &amp; Conditions</a></li>
+            <li><a href="/blog">Blog</a></li>
           </ul>
         </div>
       <!-- Information Links Ends -->
@@ -17,11 +17,13 @@
         <div class="col-md-2 col-sm-6">
           <h5>My Account</h5>
           <ul>
-            <li><a href="#">My orders</a></li>
-            <li><a href="#">My merchandise returns</a></li>
-            <li><a href="#">My credit slips</a></li>
-            <li><a href="#">My addresses</a></li>
-            <li><a href="#">My personal info</a></li>
+            <% if signed_in? %>
+              <li><a href="/account">My orders</a></li>
+              <li><a href="/user/spree_user/logout">Logout</a></li>
+            <% else %>
+              <li><a href="/user/spree_user/sign_up">Sign Up</a></li>
+              <li><a href="/login">Login</a></li>
+            <% end %>
           </ul>
         </div>
       <!-- My Account Links Ends -->          

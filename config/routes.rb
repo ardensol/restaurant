@@ -10,6 +10,10 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
   root to: "home#index"
 
+  Spree::Core::Engine.routes.append do
+    match '/about',                     to: 'staticpages#about', via: :get
+  end
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
