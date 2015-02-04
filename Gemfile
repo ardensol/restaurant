@@ -27,6 +27,8 @@ gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-4-stable'
 
 gem 'spree_bootstrap_frontend', github: '200Creative/spree_bootstrap_frontend', branch: '2-4-stable'
 
+gem 'aws-sdk'
+
 
 gem "rack-reverse-proxy", :require => "rack/reverse_proxy"
 # bundle exec rake doc:rails generates the API under doc/api.
