@@ -14,6 +14,9 @@ Rails.application.routes.draw do
     match '/about',                     to: 'staticpages#about', via: :get
   end
 
+
+  match "/blog" => redirect("http://restaurantyard.com/blog/"), via: :all 
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

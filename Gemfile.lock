@@ -239,6 +239,8 @@ GEM
     rabl (0.9.4.pre1)
       activesupport (>= 2.3.14)
     rack (1.5.2)
+    rack-reverse-proxy (0.4.4)
+      rack (>= 1.0.0)
     rack-test (0.6.3)
       rack (>= 1.0)
     rails (4.1.8)
@@ -326,6 +328,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   pg
+  rack-reverse-proxy
   rails (= 4.1.8)
   rails_12factor
   sass-rails (~> 4.0.3)
