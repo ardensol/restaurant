@@ -1,0 +1,2 @@
+<!-- insert_before 'erb:contains("csrf_meta_tags")'-->  
+  <meta name="google-site-verification" content="ymQ_IyyNdl-kLUR1hTM6JcuQshViRSTB2_RUAPR4nPo" />
