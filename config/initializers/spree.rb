@@ -24,7 +24,7 @@ Spree.config do |config|
     styles: {
       mini:     "95x95>",
       small:    "100x100>",
-      product:  "350",
+      product:  "320",
       large:    "360x360>",
       xlarge:   "555x555>"
     },
