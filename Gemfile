@@ -13,6 +13,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
+gem 'dotenv-rails', :groups => [:development, :test]
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -26,6 +27,8 @@ gem 'spree', github: 'spree/spree', branch: '2-4-stable'
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-4-stable'
 
 gem 'spree_bootstrap_frontend', github: '200Creative/spree_bootstrap_frontend', branch: '2-4-stable'
+
+gem 'spree_gateway', github: 'spree/spree_gateway', branch: '2-4-stable'
 
 gem 'aws-sdk'
 
