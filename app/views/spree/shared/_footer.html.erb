@@ -6,7 +6,7 @@
         <div class="col-md-2 col-sm-6">
           <h5>Information</h5>
           <ul>
-            <li><a href="/about">About Us</a></li>>
+            <li><a href="/about">About Us</a></li>
             <li><a href="/blog">Blog</a></li>
           </ul>
         </div>
@@ -42,20 +42,22 @@
         </div>
       <!-- Follow Us Links Ends -->
       <!-- Contact Us Starts -->
-        <div class="col-md-4 col-sm-12 last">
+        <div class="col-md-4 col-sm-12 last"  itemscope itemtype="http://schema.org/LocalBusiness">
           <h5>Contact Us</h5>
           <ul>
-            <li>EEL Used Restaurant Equipment</li>
-            <li>
-              4002 N 36 Ave </br> Phoenix, AZ 85019
-            </li>
-            <li>
-              Email: <a href="#">sales@eelphoenixaz.com</a>
-            </li>               
-          </ul>
-          <h4 class="lead">
-            Tel: <span>(480) 448-2875</span>
-          </h4>
+            <li itemprop="name">EEL Used Restaurant Equipment</li>
+            <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+              <li itemprop="streetAddress">
+                4002 N 36 Ave </br> <span itemprop="addressLocality">Phoenix</span>, <span itemprop="addressRegion">AZ</span><span itemprop="postalCode"> 85019</span>
+              </li>
+              <li>
+                Email: <a href="#" itemprop="email">sales@eelphoenixaz.com</a>
+              </li>               
+            </ul>
+            <h4 class="lead">
+              Tel: <span itemprop="telephone">(480) 448-2875</span>
+            </h4>
+            </div>
         </div>
       <!-- Contact Us Ends -->
       </div>
