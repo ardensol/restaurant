@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150114212707) do
+ActiveRecord::Schema.define(version: 20150821172047) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -632,6 +632,22 @@ ActiveRecord::Schema.define(version: 20150114212707) do
 
   add_index "spree_roles_users", ["role_id"], name: "index_spree_roles_users_on_role_id", using: :btree
   add_index "spree_roles_users", ["user_id"], name: "index_spree_roles_users_on_user_id", using: :btree
+
+  create_table "spree_seo_pages", force: true do |t|
+    t.string   "h1_text"
+    t.string   "h2_text"
+    t.string   "og_description"
+    t.string   "slug"
+    t.string   "article_image_file_name"
+    t.string   "article_image_content_type"
+    t.integer  "article_image_file_size"
+    t.datetime "article_image_updated_at"
+    t.string   "article_header"
+    t.text     "paragraph_text"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "name"
+  end
 
   create_table "spree_shipments", force: true do |t|
     t.string   "tracking"

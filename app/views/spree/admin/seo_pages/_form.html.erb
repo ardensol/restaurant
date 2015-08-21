@@ -1,0 +1,42 @@
+<div data-hook="admin_subscription_coupons_form_fields">
+
+  <div data-hook="subsciption_coupons">
+
+    <div class="alpha four columns">
+
+    </div>
+    
+    <div class="omega eight columns">
+      <div data-hook="name" class="field">
+        <p>Name</p>
+        <%= f.text_field :name, :class => 'fullwidth' %>
+      </div>
+      <div data-hook="description" class="field">
+        <p>Heading</p>
+        <%= f.text_field :h1_text %>
+      </div>
+      <div data-hook="description" class="field">
+        <p>H2 Text</p>
+        <%= f.text_field :h2_text %>
+      </div>
+      <div data-hook="description" class="field">
+        <p>OG Description</p>
+        <%= f.text_field :og_description %>
+      </div>
+      <div data-hook="description" class="field">
+        <p>Article Header<p>
+        <%= f.text_field :article_header %>
+      </div>
+      <div data-hook="description" class="field">
+        <p>Paragraph Text</p>
+        <%= f.text_area :paragraph_text, rows: 20, cols: 40 %>
+      </div>  
+      <div data-hook="description" class="field">
+        <%= f.file_field :article_image %>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<div class="clear"></div>
