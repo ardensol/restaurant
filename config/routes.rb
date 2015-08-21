@@ -13,7 +13,7 @@ Rails.application.routes.draw do
   Spree::Core::Engine.routes.append do
     match '/about',                     to: 'staticpages#about', via: :get
     
-    get ':id', to: 'seo_pages#show', as: 'seo'
+    get ':id', to: 'seo_pages#show'
 
     namespace :admin do
       resources :seo_pages
