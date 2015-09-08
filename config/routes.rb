@@ -12,6 +12,8 @@ Rails.application.routes.draw do
 
   Spree::Core::Engine.routes.append do
     match '/about',                     to: 'staticpages#about', via: :get
+    match '/terms-and-conditions',                     to: 'staticpages#terms', via: :get
+    match '/privacy-policy',                     to: 'staticpages#privacy', via: :get
     
   end
 
