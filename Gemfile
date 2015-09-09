@@ -13,7 +13,6 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
-gem 'dotenv-rails', :groups => [:development, :test]
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -30,6 +29,8 @@ gem 'spree_bootstrap_frontend', github: '200Creative/spree_bootstrap_frontend', 
 
 gem 'spree_gateway', github: 'spree/spree_gateway', branch: '2-4-stable'
 
+gem 'spree_static_content', github: 'spree-contrib/spree_static_content', branch: '2-4-stable'
+
 gem 'aws-sdk'
 
 
@@ -42,6 +43,8 @@ gem 'spring',        group: :development
 
 
 gem 'rails_12factor', group: :production
+
+gem 'dotenv-rails', group: [:development, :test]
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

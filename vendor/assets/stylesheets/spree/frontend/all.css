@@ -4,4 +4,5 @@
 *= require spree/frontend/bootstrap_frontend
 *= require_self
 *= require_tree .
+ *= require spree/frontend/spree_static_content
 */
