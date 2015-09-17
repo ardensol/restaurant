@@ -20,31 +20,34 @@
 								<ul class="list-unstyled list-inline pull-left">
 									<li><a href="/">Home</a></li>
 									<% if signed_in? %>
-									<li><a href="#">My Account</a></li>
+									<li><a href="/account">My Account</a></li>
 									<% else %>
 									<li><a href="/signup">Register</a></li>
 									<li><a href="/login">Login</a></li>
 									<% end %>
 									<li><a href="/cart">Shopping Cart</a></li>
-									<li><a href="#">Checkout</a></li>
-									
+									<li>602-301-2657</li>
+
 								</ul>
 							</div>
 						</div>
 					<!-- Header Links Ends -->
 					<!-- Currency & Languages Starts -->
 						<div class="col-md-3 col-xs-12">
-							
+								
 						</div>
 					<!-- Currency & Languages Ends -->
 				</div>
+				<!-- Search Starts -->					
 				<div class="row">
-					<!-- Search Starts -->					
-						<div class="col-md-7 col-xs-12">
-							<%= render :partial => 'spree/shared/search'%>	
-						</div>
+					<div class="col-md-7 col-xs-12">
+						<%= render :partial => 'spree/shared/search'%>	
+					</div>	
+				</div>
+				<div class="row">
 					<!-- Search Ends -->						
-					<!-- Shopping Cart Starts -->					
+					<!-- Shopping Cart Starts -->
+					<div>					
 						<ul class="nav navbar-nav navbar-right" data-hook>
 						      <li id="link-to-cart" data-hook>
 						        <noscript>
@@ -53,8 +56,8 @@
 						        &nbsp;
 						      </li>
 						      <script>Spree.fetch_cart()</script>
-						      <li>602-301-2657</li>
 						 </ul>
+					</div>	 
 					<!-- Shopping Cart Starts -->					
 						
 					</div>
