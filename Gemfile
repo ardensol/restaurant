@@ -31,6 +31,8 @@ gem 'spree_gateway', github: 'spree/spree_gateway', branch: '2-4-stable'
 
 gem 'spree_static_content', github: 'spree-contrib/spree_static_content', branch: '2-4-stable'
 
+gem 'spree_contact_us', github: 'spree-contrib/spree_contact_us', branch: '2-4-stable'
+
 gem 'aws-sdk'
 
 
