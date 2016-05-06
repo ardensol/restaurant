@@ -33,7 +33,7 @@ gem 'spree_static_content', github: 'spree-contrib/spree_static_content', branch
 
 gem 'spree_contact_us', github: 'spree-contrib/spree_contact_us', branch: '2-4-stable'
 
-gem 'aws-sdk'
+gem 'aws-sdk', '< 2.0'
 
 
 gem "rack-reverse-proxy", :require => "rack/reverse_proxy"
