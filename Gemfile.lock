@@ -153,6 +153,9 @@ GEM
     arel (5.0.1.20140414130214)
     awesome_nested_set (3.0.3)
       activerecord (>= 4.0.0, < 5)
+    aws-sdk-v1 (1.66.0)
+      json (~> 1.4)
+      nokogiri (>= 1.4.4)
     bcrypt (3.1.11)
     bootstrap-kaminari-views (0.0.5)
       kaminari (>= 0.13)
@@ -355,7 +358,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  aws-sdk (< 2.0)
+  aws-sdk-v1
   coffee-rails (~> 4.0.0)
   dotenv-rails
   jbuilder (~> 2.0)
