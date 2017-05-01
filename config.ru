@@ -3,7 +3,7 @@
 require ::File.expand_path('../config/environment',  __FILE__)
 
 use Rack::ReverseProxy do
-  reverse_proxy /^\/blog(\/.*)$/, 'http://immense-reef-6248.herokuapp.com$1', opts = {:preserve_host => true}
+  reverse_proxy /^\/blog(\/.*)$/, 'http://138.68.237.141$1', opts = {:preserve_host => true}
 end
 
 run Rails.application
