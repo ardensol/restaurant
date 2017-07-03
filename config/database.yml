@@ -2,8 +2,6 @@ development:
   adapter: postgresql
   database: restaurantdev
   host: localhost
-  username: carlos
-  password: latino
 
 # Warning: The database defined as "test" will be erased and
 # re-generated form your development database when you run "rake".
@@ -12,12 +10,8 @@ test:
   adapter: postgresql
   database: restauranttest
   host: localhost
-  username: carlos
-  password: latino
 
 production:
   adapter: postgresql
   database: restaurantprod
   host: localhost
-  username: carlos
-  password: latino

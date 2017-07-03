@@ -14,6 +14,7 @@ Rails.application.routes.draw do
     match '/about',                     to: 'staticpages#about', via: :get
     match '/terms-and-conditions',                     to: 'staticpages#terms', via: :get
     match '/privacy-policy',                     to: 'staticpages#privacy', via: :get
+    get :warranty, to: 'staticpages#warranty'
     
   end
 

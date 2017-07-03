@@ -25,7 +25,6 @@
 									<li><a href="/signup">Register</a></li>
 									<li><a href="/login">Login</a></li>
 									<% end %>
-									<li><a href="/cart">Shopping Cart</a></li>
 									<li>480-448-2875</li>
 
 								</ul>
@@ -46,20 +45,7 @@
 				</div>
 				<div class="row">
 					<!-- Search Ends -->						
-					<!-- Shopping Cart Starts -->
-					<div>					
-						<ul class="nav navbar-nav navbar-right" data-hook>
-						      <li id="link-to-cart" data-hook>
-						        <noscript>
-						          <%= link_to Spree.t(:cart), '/cart' %>
-						        </noscript>
-						        &nbsp;
-						      </li>
-						      <script>Spree.fetch_cart()</script>
-						 </ul>
-					</div>	 
-					<!-- Shopping Cart Starts -->					
-						
+
 					</div>
 				</div>
 			<!-- Header Right Ends -->				

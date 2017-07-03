@@ -20,6 +20,9 @@ class Spree::StaticpagesController < Spree::StoreController
 
   def affiliates
   end
+
+  def warranty
+  end
   
 end
 
