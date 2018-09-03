@@ -9,6 +9,9 @@ Spree.config do |config|
   # Example:
   # Uncomment to stop tracking inventory levels in the application
   # config.track_inventory_levels = false
+
+  config.layout = 'spree/layouts/spree_application'
+
   attachment_config = {
     s3_credentials: {
       access_key_id: ENV.fetch("S3_ACCESS_KEY"),
@@ -40,3 +43,21 @@ Spree.config do |config|
 end
 
 Spree.user_class = "Spree::User"
+
+
+
+Spree::StaticContentController.class_eval do
+  def show
+    path = case params[:path]
+           when Array
+             params[:path].join("/")
+           when String
+             params[:path]
+           when nil
+             request.path
+           end
+    unless @page = Spree::Page.visible.where('slug = ? OR slug = ?', path, "/" + path).first
+      render_404
+    end
+  end
+end
