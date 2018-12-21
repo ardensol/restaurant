@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160502021959) do
+ActiveRecord::Schema.define(version: 20181221215658) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -89,6 +89,7 @@ ActiveRecord::Schema.define(version: 20160502021959) do
     t.text     "alt"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "s3_url"
   end
 
   add_index "spree_assets", ["viewable_id"], name: "index_assets_on_viewable_id", using: :btree
@@ -431,7 +432,7 @@ ActiveRecord::Schema.define(version: 20160502021959) do
   add_index "spree_product_properties", ["property_id"], name: "index_spree_product_properties_on_property_id", using: :btree
 
   create_table "spree_products", force: true do |t|
-    t.string   "name",                 default: "",   null: false
+    t.string   "name",                 default: "",    null: false
     t.text     "description"
     t.datetime "available_on"
     t.datetime "deleted_at"
@@ -444,10 +445,13 @@ ActiveRecord::Schema.define(version: 20160502021959) do
     t.datetime "updated_at"
     t.boolean  "promotionable",        default: true
     t.string   "meta_title"
+    t.string   "eel_inventory_id"
+    t.boolean  "archived",             default: false, null: false
   end
 
   add_index "spree_products", ["available_on"], name: "index_spree_products_on_available_on", using: :btree
   add_index "spree_products", ["deleted_at"], name: "index_spree_products_on_deleted_at", using: :btree
+  add_index "spree_products", ["eel_inventory_id"], name: "index_spree_products_on_eel_inventory_id", using: :btree
   add_index "spree_products", ["name"], name: "index_spree_products_on_name", using: :btree
   add_index "spree_products", ["shipping_category_id"], name: "index_spree_products_on_shipping_category_id", using: :btree
   add_index "spree_products", ["slug"], name: "index_spree_products_on_slug", using: :btree
