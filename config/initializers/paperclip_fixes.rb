@@ -6,5 +6,3 @@ module Paperclip
     end
   end
 end
-
-Paperclip::UriAdapter.register
