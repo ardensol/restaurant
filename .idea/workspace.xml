@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c497f425-fe67-4cb9-8a43-682de7ff3f9e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/services/inventories/sync.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/inventories/sync.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/paperclip_fixes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/paperclip_fixes.rb" afterDir="false" />
     </list>
     <ignored path="restaurant.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sync.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sync.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/services/inventories/sync.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="174">
-              <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+              <caret line="55" column="19" lean-forward="true" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -43,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="paperclip_fixes.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="paperclip_fixes.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/initializers/paperclip_fixes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12">
-              <caret line="7" column="62" lean-forward="true" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+            <state relative-caret-position="216">
+              <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -157,8 +157,8 @@
         <option value="$PROJECT_DIR$/app/views/spree/products/_image.html.erb" />
         <option value="$PROJECT_DIR$/app/views/spree/products/_thumbnails.html.erb" />
         <option value="$PROJECT_DIR$/app/models/spree/image_decorator.rb" />
-        <option value="$PROJECT_DIR$/config/initializers/paperclip_fixes.rb" />
         <option value="$PROJECT_DIR$/app/services/inventories/sync.rb" />
+        <option value="$PROJECT_DIR$/config/initializers/paperclip_fixes.rb" />
       </list>
     </option>
   </component>
@@ -587,12 +587,12 @@
       <workItem from="1500244963265" duration="110000" />
       <workItem from="1500934602200" duration="1601000" />
       <workItem from="1503182480826" duration="390000" />
-      <workItem from="1545424511806" duration="17912000" />
+      <workItem from="1545424511806" duration="18084000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25261000" />
+    <option name="totallyTimeSpent" value="25433000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="724" extended-state="0" />
@@ -957,13 +957,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/paperclip_fixes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
-          <caret line="7" column="62" lean-forward="true" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/spree/image_decorator.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -974,7 +967,14 @@
     <entry file="file://$PROJECT_DIR$/app/services/inventories/sync.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
-          <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+          <caret line="55" column="19" lean-forward="true" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/paperclip_fixes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
         </state>
       </provider>
     </entry>

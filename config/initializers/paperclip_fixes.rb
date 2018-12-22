@@ -16,7 +16,7 @@ module VerifyMimeType
         if interpolated_mime_type == 'application/octet-stream'
           temp_file = URI.parse(instance.s3_url)
           attachment_path = temp_file.path
-          temp_file && temp_file.close
+          # temp_file && temp_file.close
           actual_mime_type = `file --b --mime-type '#{attachment_path}'`.strip
           p '#########'
           p actual_mime_type
