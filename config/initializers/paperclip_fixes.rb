@@ -26,7 +26,7 @@ module VerifyMimeType
         end
       end
     rescue Timeout::Error => e
-      if retires < 1
+      if retries < 1
         retries += 1
         retry
       else
@@ -34,7 +34,7 @@ module VerifyMimeType
       end
     end
 
-    return actual_mime_type
+    actual_mime_type
   end
 end
 
