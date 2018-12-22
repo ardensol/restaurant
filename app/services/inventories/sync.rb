@@ -58,6 +58,8 @@ module Inventories
             p im.errors
 
             p im.id
+
+            im.reprocess!
           end
         end
 
