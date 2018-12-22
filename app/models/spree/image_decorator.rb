@@ -1,5 +1,7 @@
 Spree::Image.class_eval do
-  before_validation -> { self.image_content_type = Paperclip.verify_mime_type(self, 'attachment') }
+  before_validation -> { self.attachment_content_type = Paperclip.verify_mime_type(self, 'attachment') }
+
+  p "LOADED IMAGE CLASS EVAL"
 
   has_attached_file :attachment,
                     validate_media_type: false,

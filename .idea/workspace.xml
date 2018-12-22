@@ -55,8 +55,8 @@
       <file leaf-file-name="image_decorator.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/spree/image_decorator.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="95" selection-start-line="1" selection-start-column="95" selection-end-line="1" selection-end-column="95" />
+            <state relative-caret-position="51">
+              <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -560,12 +560,12 @@
       <workItem from="1500244963265" duration="110000" />
       <workItem from="1500934602200" duration="1601000" />
       <workItem from="1503182480826" duration="390000" />
-      <workItem from="1545424511806" duration="16922000" />
+      <workItem from="1545424511806" duration="16988000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24271000" />
+    <option name="totallyTimeSpent" value="24337000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="724" extended-state="0" />
@@ -946,8 +946,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/spree/image_decorator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="95" selection-start-line="1" selection-start-column="95" selection-end-line="1" selection-end-column="95" />
+        <state relative-caret-position="51">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
         </state>
       </provider>
     </entry>
