@@ -33,7 +33,7 @@ module Inventories
           taxon_ids: [taxon.id],
           description: result['external_description'],
           archived: false,
-          available_on: Time.now
+          available_on: Time.now - 3.days
         )
 
 
