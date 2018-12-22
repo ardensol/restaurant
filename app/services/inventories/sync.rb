@@ -54,6 +54,8 @@ module Inventories
             p im.s3_url
 
             im.save
+
+            p im.id
           end
         end
 
