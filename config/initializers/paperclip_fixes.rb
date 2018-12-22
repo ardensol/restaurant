@@ -18,6 +18,9 @@ module VerifyMimeType
           attachment_path = temp_file.path
           temp_file && temp_file.close
           actual_mime_type = `file --b --mime-type '#{attachment_path}'`.strip
+          p '#########'
+          p actual_mime_type
+          p '#########'
         else
           actual_mime_type = interpolated_mime_type
         end
