@@ -15,4 +15,8 @@ Spree::Image.class_eval do
   # validates_attachment :attachment,
   #                      :presence => true,
   #                      :content_type => { :content_type => %w(application/octet-stream image/jpeg image/jpg image/png image/gif) }
+  #
+  def fake_method
+    p 'test'
+  end
 end
