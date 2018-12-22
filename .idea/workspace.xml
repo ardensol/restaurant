@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c497f425-fe67-4cb9-8a43-682de7ff3f9e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/services/inventories/sync.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/inventories/sync.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/paperclip_fixes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/paperclip_fixes.rb" afterDir="false" />
     </list>
     <ignored path="restaurant.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,21 +25,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="image.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/spree-d0f34abce595/core/app/models/spree/image.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="12" selection-end-column="88" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="assets.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/initializers/assets.rb">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="sync.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sync.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/services/inventories/sync.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="121">
@@ -78,8 +64,26 @@
       <file leaf-file-name="paperclip_fixes.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/initializers/paperclip_fixes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            <state relative-caret-position="153">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uri_adapter.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/paperclip-4.2.4/lib/paperclip/io_adapters/uri_adapter.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/spree/products/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -87,7 +91,7 @@
       <file leaf-file-name="spree.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/initializers/spree.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
+            <state relative-caret-position="789">
               <caret line="63" selection-start-line="63" selection-end-line="63" />
             </state>
           </provider>
@@ -159,9 +163,9 @@
         <option value="$PROJECT_DIR$/config/initializers/spree.rb" />
         <option value="$PROJECT_DIR$/config/initializers/paperclip_fix.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/config/initializers/paperclip_fixes.rb" />
         <option value="$PROJECT_DIR$/app/models/spree/image_decorator.rb" />
         <option value="$PROJECT_DIR$/app/services/inventories/sync.rb" />
+        <option value="$PROJECT_DIR$/config/initializers/paperclip_fixes.rb" />
       </list>
     </option>
   </component>
@@ -317,6 +321,14 @@
               <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="paperclip" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="paperclip (v4.2.4, rbenv: 2.2.3) [gem]" type="70bed36:NamedLibraryElementNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="paperclip" type="462c0819:PsiDirectoryNode" />
+              <item name="io_adapters" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -326,7 +338,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="image_decora&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/app/models/spree/image_decorator.rb&#10;gemfile&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/Gemfile&#10;image_&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/app/models/spree/image_decorator.rb&#10;paper&#9;FILE&#9;file:///Users/carlossolorio/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/paperclip-4.2.4/lib/paperclip.rb&#10;initial&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/config/initializers&#10;property&#9;FILE&#9;file:///Users/carlossolorio/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/spree-d0f34abce595/core/app/models/spree/property.rb&#10;gemf&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/Gemfile.lock&#10;images_con&#9;FILE&#9;file:///Users/carlossolorio/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/spree-d0f34abce595/backend/app/controllers/spree/admin/images_controller.rb&#10;add_spree_&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/db/migrate/20181221215658_add_spree_image_columns.rb&#10;initializ&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/config/initializers&#10;add_eel&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/db/migrate/20181221212743_add_eel_inventory_id.rb&#10;schema&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/db/schema.rb&#10;.gitig&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/.gitignore" />
+    <property name="SearchEverywhereHistoryKey" value="show&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/app/views/spree/products/show.html.erb&#10;image_decora&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/app/models/spree/image_decorator.rb&#10;gemfile&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/Gemfile&#10;image_&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/app/models/spree/image_decorator.rb&#10;paper&#9;FILE&#9;file:///Users/carlossolorio/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/paperclip-4.2.4/lib/paperclip.rb&#10;initial&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/config/initializers&#10;property&#9;FILE&#9;file:///Users/carlossolorio/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/spree-d0f34abce595/core/app/models/spree/property.rb&#10;gemf&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/Gemfile.lock&#10;images_con&#9;FILE&#9;file:///Users/carlossolorio/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/spree-d0f34abce595/backend/app/controllers/spree/admin/images_controller.rb&#10;add_spree_&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/db/migrate/20181221215658_add_spree_image_columns.rb&#10;initializ&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/config/initializers&#10;add_eel&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/db/migrate/20181221212743_add_eel_inventory_id.rb&#10;schema&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/db/schema.rb&#10;.gitig&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/.gitignore" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -532,12 +544,12 @@
       <workItem from="1500244963265" duration="110000" />
       <workItem from="1500934602200" duration="1601000" />
       <workItem from="1503182480826" duration="390000" />
-      <workItem from="1545424511806" duration="14599000" />
+      <workItem from="1545424511806" duration="15151000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21948000" />
+    <option name="totallyTimeSpent" value="22500000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="724" extended-state="0" />
@@ -584,13 +596,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/spree/home/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -840,13 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/spree/products/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/spree/product_decorator.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -860,13 +858,6 @@
     <entry file="file://$PROJECT_DIR$/config/initializers/paperclip_fix.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/spree.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/spree-d0f34abce595/core/app/models/spree/image.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -878,13 +869,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2749">
           <caret line="182" column="8" selection-start-line="182" selection-start-column="8" selection-end-line="182" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/paperclip_fixes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -920,6 +904,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
           <caret line="55" column="36" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/spree.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="789">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/paperclip_fixes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/paperclip-4.2.4/lib/paperclip/io_adapters/uri_adapter.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/spree/products/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
         </state>
       </provider>
     </entry>
