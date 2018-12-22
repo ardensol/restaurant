@@ -1,0 +1,7 @@
+<% if image && image.s3_url %>
+  <%= image_tag image.s3_url %>
+<% elsif defined?(image) && image %>
+  <%= image_tag image.attachment.url(:product), :itemprop => "image" %>
+<% else %>
+  <%= product_image(@product, :itemprop => "image") %>
+<% end %>
