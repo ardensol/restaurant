@@ -8,5 +8,5 @@ Spree::Image.class_eval do
                     convert_options: { all: '-strip -auto-orient -colorspace sRGB' }
   validates_attachment :attachment,
                        :presence => true,
-                       :content_type => { :content_type => %w(image/jpeg image/jpg image/png image/gif) }
+                       :content_type => { :content_type => %w(application/octet-stream image/jpeg image/jpg image/png image/gif) }
 end

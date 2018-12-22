@@ -51,7 +51,7 @@ module Inventories
 
             im.attachment = URI.parse(im.s3_url)
 
-            p im.attachment
+            p im.s3_url
 
             im.save
           end
