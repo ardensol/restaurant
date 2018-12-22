@@ -4,3 +4,4 @@ namespace :inventories do
     Inventories::Sync.new.execute
   end
 end
+
