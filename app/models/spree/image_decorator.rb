@@ -6,7 +6,9 @@ Spree::Image.class_eval do
                     url: '/spree/products/:id/:style/:basename.:extension',
                     path: ':rails_root/public/spree/products/:id/:style/:basename.:extension',
                     convert_options: { all: '-strip -auto-orient -colorspace sRGB' }
-  validates_attachment :attachment,
-                       :presence => true,
-                       :content_type => { :content_type => %w(application/octet-stream image/jpeg image/jpg image/png image/gif) }
+
+  do_not_validate_attachment_file_type :attachment
+  # validates_attachment :attachment,
+  #                      :presence => true,
+  #                      :content_type => { :content_type => %w(application/octet-stream image/jpeg image/jpg image/png image/gif) }
 end
