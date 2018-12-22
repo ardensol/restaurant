@@ -53,7 +53,7 @@ module Inventories
 
             p im.s3_url
 
-            im.save(validate: false)
+            im.save
 
             p im.errors
 
