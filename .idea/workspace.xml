@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c497f425-fe67-4cb9-8a43-682de7ff3f9e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/spree/image_decorator.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/spree/image_decorator.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/spree/products/_image.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/spree/products/_thumbnails.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/paperclip_fixes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/paperclip_fixes.rb" afterDir="false" />
     </list>
     <ignored path="restaurant.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/app/models/spree/image_decorator.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="92" lean-forward="true" selection-start-line="1" selection-start-column="92" selection-end-line="1" selection-end-column="92" />
+              <caret line="1" column="94" selection-start-line="1" selection-start-column="94" selection-end-line="1" selection-end-column="94" />
             </state>
           </provider>
         </entry>
@@ -564,12 +560,12 @@
       <workItem from="1500244963265" duration="110000" />
       <workItem from="1500934602200" duration="1601000" />
       <workItem from="1503182480826" duration="390000" />
-      <workItem from="1545424511806" duration="16714000" />
+      <workItem from="1545424511806" duration="16803000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24063000" />
+    <option name="totallyTimeSpent" value="24152000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="724" extended-state="0" />
@@ -580,8 +576,8 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.37913907" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2625202" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.37913907" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2625202" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -951,7 +947,7 @@
     <entry file="file://$PROJECT_DIR$/app/models/spree/image_decorator.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="92" lean-forward="true" selection-start-line="1" selection-start-column="92" selection-end-line="1" selection-end-column="92" />
+          <caret line="1" column="94" selection-start-line="1" selection-start-column="94" selection-end-line="1" selection-end-column="94" />
         </state>
       </provider>
     </entry>
