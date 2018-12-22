@@ -60,8 +60,8 @@
       <file leaf-file-name="sync.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/services/inventories/sync.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="235">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
         </entry>
@@ -719,12 +719,12 @@
       <workItem from="1500244963265" duration="110000" />
       <workItem from="1500934602200" duration="1601000" />
       <workItem from="1503182480826" duration="390000" />
-      <workItem from="1545424511806" duration="12302000" />
+      <workItem from="1545424511806" duration="12464000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19651000" />
+    <option name="totallyTimeSpent" value="19813000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="724" extended-state="0" />
@@ -1105,8 +1105,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/services/inventories/sync.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="235">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>

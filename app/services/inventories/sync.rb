@@ -49,7 +49,9 @@ module Inventories
               s3_url: "https://#{clean_file(image['attachment_file_name'])}"
             )
 
-            im.attachment = open(im.s3_url)
+            im.attachment = URI.parse(im.s3_url)
+
+            p im.attachment
 
             im.save
           end
