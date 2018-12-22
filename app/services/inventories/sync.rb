@@ -55,6 +55,8 @@ module Inventories
 
             im.save
 
+            im.errors
+
             p im.id
           end
         end
