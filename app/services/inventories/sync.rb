@@ -59,7 +59,7 @@ module Inventories
 
             p im.id
 
-            im.reprocess!
+            im.attachment.reprocess!
           end
         end
 
