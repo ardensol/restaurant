@@ -18,7 +18,7 @@ module Inventories
         )
 
       results.each do |result|
-        next unless result['category'] &&
+        next unless result['category']
         next unless (name = result['category']['name'])
         next unless (taxon = Spree::Taxon.find_by(name: name))
 
