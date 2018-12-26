@@ -22,63 +22,56 @@ module Inventories
         next unless (name = result['category']['name'])
         next unless (taxon = Spree::Taxon.find_by(name: name))
 
-        inventory =
-          Spree::Product.find_or_initialize_by(
-            eel_inventory_id: result['id'].to_s
+        begin
+
+          inventory =
+            Spree::Product.find_or_initialize_by(
+              eel_inventory_id: result['id'].to_s
+            )
+          inventory.assign_attributes(
+            name: result['name'],
+            price: result['suggested_retail_price'],
+            shipping_category_id: 1,
+            taxon_ids: [taxon.id],
+            description: result['external_description'],
+            archived: false,
+            available_on: Time.now - 3.days
           )
-        inventory.assign_attributes(
-          name: result['name'],
-          price: result['suggested_retail_price'],
-          shipping_category_id: 1,
-          taxon_ids: [taxon.id],
-          description: result['external_description'],
-          archived: false,
-          available_on: Time.now - 3.days
-        )
 
+          inventory.images.destroy_all if inventory.persisted?
+          inventory.product_properties.destroy_all if inventory.persisted?
+          inventory.save!
 
-        inventory.images.destroy_all if inventory.persisted?
-        inventory.product_properties.destroy_all if inventory.persisted?
-
-        inventory.save!
-
-
-        if result['images'].present? && result['images'].size > 0
-          result['images'].each do |image|
-            im = inventory.images.build(
-              s3_url: "https://#{clean_file(image['attachment_file_name'])}"
-            )
-
-            im.attachment = URI.parse(im.s3_url)
-
-            p im.s3_url
-
-            im.save
-
-            p im.errors
-
-            p im.id
-
-            im.attachment.reprocess!
+          if result['images'].present? && result['images'].size > 0
+            result['images'].each do |image|
+              im = inventory.images.build(
+                s3_url: "https://#{clean_file(image['attachment_file_name'])}"
+              )
+              im.attachment = URI.parse(im.s3_url)
+              im.save
+              im.attachment.reprocess!
+            end
           end
-        end
 
-        properties = result.slice(
-          'brand', 'model', 'voltage', 'height', 'width', 'length'
-        )
+          properties = result.slice(
+            'brand', 'model', 'voltage', 'height', 'width', 'length'
+          )
 
-        properties = properties.select { |_k, v| v.present? }
+          properties = properties.select { |_k, v| v.present? }
 
-        properties.each do |prop, value|
-          property = Spree::Property.find_or_initialize_by(name: prop)
-          property.update!(presentation: prop.capitalize) unless property.persisted?
+          properties.each do |prop, value|
+            property = Spree::Property.find_or_initialize_by(name: prop)
+            property.update!(presentation: prop.capitalize) unless property.persisted?
 
 
-          product_property =
-            Spree::ProductProperty.new(
-              product: inventory, property: property, value: value
-            )
-          product_property.save!
+            product_property =
+              Spree::ProductProperty.new(
+                product: inventory, property: property, value: value
+              )
+            product_property.save!
+          end
+        rescue => e
+          p e
         end
       end
     end
@@ -90,6 +83,15 @@ module Inventories
         HTTParty
         .get("#{EEL_BASE_URL}/api/v1/inventories", headers: headers)
         .parsed_response
+    end
+
+    def post_updates(inventory)
+      HTTParty.post(
+        params: {
+          id: inventory.eel_inventory_id,
+          website_url: "http://www.eeleconomicrestaurantequipment.com/products/#{inventory.slug}"
+        }
+      )
     end
 
     def headers
