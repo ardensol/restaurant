@@ -42,8 +42,9 @@ module Inventories
           inventory.product_properties.destroy_all if inventory.persisted?
           inventory.save!
 
-          if result['images'].present? && result['images'].size > 0
+          if result['images'].present? && result['images'].size.positive?
             result['images'].each do |image|
+              next unless image['display']
               im = inventory.images.build(
                 s3_url: "https://#{clean_file(image['attachment_file_name'])}"
               )
@@ -54,7 +55,7 @@ module Inventories
           end
 
           properties = result.slice(
-            'brand', 'model', 'voltage', 'height', 'width', 'length'
+            'voltage', 'height', 'width', 'length'
           )
 
           properties = properties.select { |_k, v| v.present? }
@@ -71,6 +72,7 @@ module Inventories
             product_property.save!
           end
         rescue => e
+          Rails.logger.info("ERROR ERROR #{e.message}")
           p e
         end
       end
@@ -89,7 +91,8 @@ module Inventories
       HTTParty.post(
         params: {
           id: inventory.eel_inventory_id,
-          website_url: "http://www.eeleconomicrestaurantequipment.com/products/#{inventory.slug}"
+          website_url: "http://www.eeleconomicrestaurantequipment.com/products/"\
+            "#{inventory.slug}"
         }
       )
     end
@@ -103,7 +106,7 @@ module Inventories
     def clean_file(name)
       %w[https:// http://].inject(name) do |result, word|
         return '' unless result
-        result.gsub(word, '').gsub(' ', '')
+        result.gsub(word, '').delete(' ')
       end
     end
 
