@@ -33,56 +33,53 @@ module Inventories
       return unless result['category']
       return unless (name = result['category']['name'])
       return unless (taxon = Spree::Taxon.find_by(name: name))
+      inventory =
+          Spree::Product.find_or_initialize_by(
+            eel_inventory_id: result['id'].to_s
+          )
+      inventory.assign_attributes(
+          name: result['name'],
+          price: result['suggested_retail_price'],
+          shipping_category_id: 1,
+          taxon_ids: [taxon.id],
+          description: result['external_description'],
+          archived: false,
+          available_on: Time.now - 3.days
+      )
 
-      begin
+      inventory.images.destroy_all if inventory.persisted?
+      inventory.product_properties.destroy_all if inventory.persisted?
+      inventory.save!
 
-        inventory =
-            Spree::Product.find_or_initialize_by(
-              eel_inventory_id: result['id'].to_s
-            )
-        inventory.assign_attributes(
-            name: result['name'],
-            price: result['suggested_retail_price'],
-            shipping_category_id: 1,
-            taxon_ids: [taxon.id],
-            description: result['external_description'],
-            archived: false,
-            available_on: Time.now - 3.days
-        )
-
-        inventory.images.destroy_all if inventory.persisted?
-        inventory.product_properties.destroy_all if inventory.persisted?
-        inventory.save!
-
-        if result['images'].present? && result['images'].size.positive?
-          result['images'].each do |image|
-            next unless image['display']
-            im = inventory.images.build(
-                s3_url: "https://#{clean_file(image['attachment_file_name'])}"
-            )
-            im.attachment = URI.parse(im.s3_url)
-            im.save
-            im.attachment.reprocess!
-          end
+      if result['images'].present? && result['images'].size.positive?
+        result['images'].each do |image|
+          next unless image['display']
+          im = inventory.images.build(
+              s3_url: "https://#{clean_file(image['attachment_file_name'])}"
+          )
+          im.attachment = URI.parse(im.s3_url)
+          im.save
+          im.attachment.reprocess!
         end
+      end
 
-        properties = result.slice(
-            'voltage', 'height', 'width', 'length'
-        )
+      properties = result.slice(
+          'voltage', 'height', 'width', 'length'
+      )
 
-        properties = properties.select { |_k, v| v.present? }
+      properties = properties.select { |_k, v| v.present? }
 
-        properties.each do |prop, value|
-          property = Spree::Property.find_or_initialize_by(name: prop)
-          property.update!(presentation: prop.capitalize) unless property.persisted?
+      properties.each do |prop, value|
+        property = Spree::Property.find_or_initialize_by(name: prop)
+        property.update!(presentation: prop.capitalize) unless property.persisted?
 
 
-          product_property =
-              Spree::ProductProperty.new(
-                  product: inventory, property: property, value: value
-              )
-          product_property.save!
-        end
+        product_property =
+            Spree::ProductProperty.new(
+                product: inventory, property: property, value: value
+            )
+        product_property.save!
+      end
     end
 
     def inventory_response
