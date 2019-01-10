@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c497f425-fe67-4cb9-8a43-682de7ff3f9e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ruby-version" beforeDir="false" afterPath="$PROJECT_DIR$/.ruby-version" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/inventories/sync.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/inventories/sync.rb" afterDir="false" />
     </list>
     <ignored path="restaurant.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,16 +25,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sync.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="sync.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/services/inventories/sync.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="53" column="14" lean-forward="true" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+            <state relative-caret-position="202">
+              <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -108,9 +106,9 @@
         <option value="$PROJECT_DIR$/app/views/spree/products/_thumbnails.html.erb" />
         <option value="$PROJECT_DIR$/config/initializers/paperclip_fixes.rb" />
         <option value="$PROJECT_DIR$/app/models/spree/image_decorator.rb" />
-        <option value="$PROJECT_DIR$/app/services/inventories/sync.rb" />
         <option value="$PROJECT_DIR$/bin/deploy" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/services/inventories/sync.rb" />
       </list>
     </option>
   </component>
@@ -120,7 +118,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
@@ -387,7 +385,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="gemfile&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/Gemfile&#10;.env&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/.env&#10;sync&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/app/services/inventories/sync.rb&#10;show&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/app/views/spree/products/show.html.erb&#10;image_decora&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/app/models/spree/image_decorator.rb&#10;image_&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/app/models/spree/image_decorator.rb&#10;paper&#9;FILE&#9;file:///Users/carlossolorio/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/paperclip-4.2.4/lib/paperclip.rb&#10;initial&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/config/initializers&#10;property&#9;FILE&#9;file:///Users/carlossolorio/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/spree-d0f34abce595/core/app/models/spree/property.rb&#10;gemf&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/Gemfile.lock&#10;images_con&#9;FILE&#9;file:///Users/carlossolorio/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/spree-d0f34abce595/backend/app/controllers/spree/admin/images_controller.rb&#10;add_spree_&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/db/migrate/20181221215658_add_spree_image_columns.rb&#10;initializ&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/config/initializers&#10;add_eel&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/db/migrate/20181221212743_add_eel_inventory_id.rb&#10;schema&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/db/schema.rb&#10;.gitig&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/.gitignore" />
+    <property name="SearchEverywhereHistoryKey" value="dep&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/bin/deploy&#10;gemfile&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/Gemfile&#10;.env&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/.env&#10;sync&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/app/services/inventories/sync.rb&#10;show&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/app/views/spree/products/show.html.erb&#10;image_decora&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/app/models/spree/image_decorator.rb&#10;image_&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/app/models/spree/image_decorator.rb&#10;paper&#9;FILE&#9;file:///Users/carlossolorio/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/paperclip-4.2.4/lib/paperclip.rb&#10;initial&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/config/initializers&#10;property&#9;FILE&#9;file:///Users/carlossolorio/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/spree-d0f34abce595/core/app/models/spree/property.rb&#10;gemf&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/Gemfile.lock&#10;images_con&#9;FILE&#9;file:///Users/carlossolorio/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/spree-d0f34abce595/backend/app/controllers/spree/admin/images_controller.rb&#10;add_spree_&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/db/migrate/20181221215658_add_spree_image_columns.rb&#10;initializ&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/config/initializers&#10;add_eel&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/db/migrate/20181221212743_add_eel_inventory_id.rb&#10;schema&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/db/schema.rb&#10;.gitig&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/.gitignore" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -597,15 +595,16 @@
       <workItem from="1545840727972" duration="2210000" />
       <workItem from="1545869831746" duration="419000" />
       <workItem from="1545958476748" duration="1459000" />
-      <workItem from="1547092926426" duration="1560000" />
+      <workItem from="1547092926426" duration="3116000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32881000" />
+    <option name="totallyTimeSpent" value="34437000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28432956" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -616,7 +615,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.43378997" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4059829" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -972,6 +971,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bin/deploy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -981,15 +987,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/services/inventories/sync.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="53" column="14" lean-forward="true" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        <state relative-caret-position="202">
+          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
         </state>
       </provider>
     </entry>
