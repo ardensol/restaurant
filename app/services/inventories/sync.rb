@@ -34,17 +34,17 @@ module Inventories
       return unless (name = result['category']['name'])
       return unless (taxon = Spree::Taxon.find_by(name: name))
       inventory =
-          Spree::Product.find_or_initialize_by(
-            eel_inventory_id: result['id'].to_s
-          )
+        Spree::Product.find_or_initialize_by(
+          eel_inventory_id: result['id'].to_s
+        )
       inventory.assign_attributes(
-          name: result['name'],
-          price: result['suggested_retail_price'],
-          shipping_category_id: 1,
-          taxon_ids: [taxon.id],
-          description: result['external_description'],
-          archived: false,
-          available_on: Time.now - 3.days
+        name: result['name'],
+        price: result['suggested_retail_price'].to_f,
+        shipping_category_id: 1,
+        taxon_ids: [taxon.id],
+        description: result['external_description'],
+        archived: false,
+        available_on: Time.now - 3.days
       )
 
       inventory.images.destroy_all if inventory.persisted?
@@ -75,9 +75,9 @@ module Inventories
 
 
         product_property =
-            Spree::ProductProperty.new(
-                product: inventory, property: property, value: value
-            )
+          Spree::ProductProperty.new(
+            product: inventory, property: property, value: value
+          )
         product_property.save!
       end
     end
