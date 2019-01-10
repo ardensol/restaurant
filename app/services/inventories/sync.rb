@@ -55,7 +55,7 @@ module Inventories
         result['images'].each do |image|
           next unless image['display']
           im = inventory.images.build(
-              s3_url: "https://#{clean_file(image['attachment_file_name'])}"
+            s3_url: "https://#{clean_file(image['attachment_file_name'])}"
           )
           im.attachment = URI.parse(im.s3_url)
           im.save
@@ -64,7 +64,7 @@ module Inventories
       end
 
       properties = result.slice(
-          'voltage', 'height', 'width', 'length'
+        'model', 'voltage'
       )
 
       properties = properties.select { |_k, v| v.present? }
@@ -73,13 +73,28 @@ module Inventories
         property = Spree::Property.find_or_initialize_by(name: prop)
         property.update!(presentation: prop.capitalize) unless property.persisted?
 
-
         product_property =
           Spree::ProductProperty.new(
             product: inventory, property: property, value: value
           )
         product_property.save!
       end
+
+      dims = result.slice('height', 'width', 'length')
+
+      if dims.all?(&:present?)
+        prop = Spree::Property.find_or_initialize_by(name: 'dimensions')
+        prop.update!(presentation: 'Dimensions') unless prop.persisted?
+        product_property =
+          Spree::ProductProperty.new(
+            product: inventory,
+            property: prop,
+            value: "#{result['length']}L X #{result['width']}W X #{result['height']}H"
+          )
+
+        product_property.save!
+      end
+
     end
 
     def inventory_response
