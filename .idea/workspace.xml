@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c497f425-fe67-4cb9-8a43-682de7ff3f9e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/services/inventories/sync.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/inventories/sync.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/spree/products/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/spree/products/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/spree/home/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/spree/home/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/production.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/production.rb" afterDir="false" />
     </list>
     <ignored path="restaurant.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,11 +27,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sync.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sync.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/services/inventories/sync.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1025">
-              <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+            <state relative-caret-position="17">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/spree/home/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="37" column="2" lean-forward="true" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="production.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
             </state>
           </provider>
         </entry>
@@ -39,10 +58,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/spree/products/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -51,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/spree/products/_image.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -105,6 +121,8 @@
       <find>url</find>
       <find>positive?</find>
       <find>product_image</find>
+      <find>https</find>
+      <find>http:</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -140,6 +158,8 @@
         <option value="$PROJECT_DIR$/app/views/spree/products/_image.html.erb" />
         <option value="$PROJECT_DIR$/app/views/spree/products/show.html.erb" />
         <option value="$PROJECT_DIR$/app/services/inventories/sync.rb" />
+        <option value="$PROJECT_DIR$/app/views/spree/home/index.html.erb" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
       </list>
     </option>
   </component>
@@ -149,8 +169,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1713" />
+    <option name="y" value="160" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
   </component>
@@ -179,19 +200,6 @@
               <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
               <item name="restaurant" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="restaurant" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="inventories" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="restaurant" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -207,7 +215,7 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="spree" type="462c0819:PsiDirectoryNode" />
-              <item name="products" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
@@ -218,6 +226,12 @@
               <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
               <item name="restaurant" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="restaurant" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="environments" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
@@ -240,161 +254,6 @@
               <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
-            <path>
-              <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="spree (v2.4.11.beta@d0f34a, rbenv: 2.2.3) [gem]" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="spree (v2.4.11.beta@d0f34a, rbenv: 2.2.3) [gem]" type="70bed36:NamedLibraryElementNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="spree (v2.4.11.beta@d0f34a, rbenv: 2.2.3) [gem]" type="70bed36:NamedLibraryElementNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="spree (v2.4.11.beta@d0f34a, rbenv: 2.2.3) [gem]" type="70bed36:NamedLibraryElementNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="spree (v2.4.11.beta@d0f34a, rbenv: 2.2.3) [gem]" type="70bed36:NamedLibraryElementNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="concerns" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="spree (v2.4.11.beta@d0f34a, rbenv: 2.2.3) [gem]" type="70bed36:NamedLibraryElementNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="concerns" type="462c0819:PsiDirectoryNode" />
-              <item name="spree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="spree (v2.4.11.beta@d0f34a, rbenv: 2.2.3) [gem]" type="70bed36:NamedLibraryElementNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="spree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="spree (v2.4.11.beta@d0f34a, rbenv: 2.2.3) [gem]" type="70bed36:NamedLibraryElementNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="spree (v2.4.11.beta@d0f34a, rbenv: 2.2.3) [gem]" type="70bed36:NamedLibraryElementNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="spree (v2.4.11.beta@d0f34a, rbenv: 2.2.3) [gem]" type="70bed36:NamedLibraryElementNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="spree (v2.4.11.beta@d0f34a, rbenv: 2.2.3) [gem]" type="70bed36:NamedLibraryElementNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="spree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="spree (v2.4.11.beta@d0f34a, rbenv: 2.2.3) [gem]" type="70bed36:NamedLibraryElementNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="spree (v2.4.11.beta@d0f34a, rbenv: 2.2.3) [gem]" type="70bed36:NamedLibraryElementNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="spree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="spree (v2.4.11.beta@d0f34a, rbenv: 2.2.3) [gem]" type="70bed36:NamedLibraryElementNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="spree" type="462c0819:PsiDirectoryNode" />
-              <item name="products" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="spree_frontend (v2.4.11.beta@d0f34a, rbenv: 2.2.3) [gem]" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="spree_frontend (v2.4.11.beta@d0f34a, rbenv: 2.2.3) [gem]" type="70bed36:NamedLibraryElementNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="spree_frontend (v2.4.11.beta@d0f34a, rbenv: 2.2.3) [gem]" type="70bed36:NamedLibraryElementNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="spree_frontend (v2.4.11.beta@d0f34a, rbenv: 2.2.3) [gem]" type="70bed36:NamedLibraryElementNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="spree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="spree_frontend (v2.4.11.beta@d0f34a, rbenv: 2.2.3) [gem]" type="70bed36:NamedLibraryElementNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="spree" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="spree_frontend (v2.4.11.beta@d0f34a, rbenv: 2.2.3) [gem]" type="70bed36:NamedLibraryElementNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="spree" type="462c0819:PsiDirectoryNode" />
-              <item name="products" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -402,7 +261,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="dep&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/bin/deploy&#10;gemfile&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/Gemfile&#10;.env&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/.env&#10;sync&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/app/services/inventories/sync.rb&#10;show&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/app/views/spree/products/show.html.erb&#10;image_decora&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/app/models/spree/image_decorator.rb&#10;image_&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/app/models/spree/image_decorator.rb&#10;paper&#9;FILE&#9;file:///Users/carlossolorio/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/paperclip-4.2.4/lib/paperclip.rb&#10;initial&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/config/initializers&#10;property&#9;FILE&#9;file:///Users/carlossolorio/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/spree-d0f34abce595/core/app/models/spree/property.rb&#10;gemf&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/Gemfile.lock&#10;images_con&#9;FILE&#9;file:///Users/carlossolorio/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/spree-d0f34abce595/backend/app/controllers/spree/admin/images_controller.rb&#10;add_spree_&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/db/migrate/20181221215658_add_spree_image_columns.rb&#10;initializ&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/config/initializers&#10;add_eel&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/db/migrate/20181221212743_add_eel_inventory_id.rb&#10;schema&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/db/schema.rb&#10;.gitig&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/.gitignore" />
+    <property name="SearchEverywhereHistoryKey" value="config&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/config&#10;dep&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/bin/deploy&#10;gemfile&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/Gemfile&#10;.env&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/.env&#10;sync&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/app/services/inventories/sync.rb&#10;show&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/app/views/spree/products/show.html.erb&#10;image_decora&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/app/models/spree/image_decorator.rb&#10;image_&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/app/models/spree/image_decorator.rb&#10;paper&#9;FILE&#9;file:///Users/carlossolorio/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/paperclip-4.2.4/lib/paperclip.rb&#10;initial&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/config/initializers&#10;property&#9;FILE&#9;file:///Users/carlossolorio/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/spree-d0f34abce595/core/app/models/spree/property.rb&#10;gemf&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/Gemfile.lock&#10;images_con&#9;FILE&#9;file:///Users/carlossolorio/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/spree-d0f34abce595/backend/app/controllers/spree/admin/images_controller.rb&#10;add_spree_&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/db/migrate/20181221215658_add_spree_image_columns.rb&#10;initializ&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/config/initializers&#10;add_eel&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/db/migrate/20181221212743_add_eel_inventory_id.rb&#10;schema&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/db/schema.rb&#10;.gitig&#9;FILE&#9;file:///Users/carlossolorio/RubymineProjects/restaurant/.gitignore" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -612,28 +471,31 @@
       <workItem from="1545840727972" duration="2210000" />
       <workItem from="1545869831746" duration="419000" />
       <workItem from="1545958476748" duration="1459000" />
-      <workItem from="1547092926426" duration="7091000" />
+      <workItem from="1547092926426" duration="7308000" />
+      <workItem from="1547219574884" duration="1000" />
+      <workItem from="1547233016765" duration="7000" />
+      <workItem from="1547614762238" duration="1000" />
+      <workItem from="1550024152437" duration="82000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38412000" />
+    <option name="totallyTimeSpent" value="38720000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="1713" y="160" width="1280" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3029079" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4059829" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28432956" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.43378997" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -644,6 +506,7 @@
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32944608" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -664,20 +527,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/spree-d0f34abce595/frontend/app/views/spree/products/_image.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" selection-start-column="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/bundler/gems/spree-d0f34abce595/frontend/app/views/spree/products/_thumbnails.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.ru">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -997,24 +846,35 @@
     <entry file="file://$PROJECT_DIR$/app/views/spree/products/_image.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/spree/products/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/services/inventories/sync.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1025">
-          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        <state relative-caret-position="17">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/spree/home/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="37" column="2" lean-forward="true" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>
