@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c497f425-fe67-4cb9-8a43-682de7ff3f9e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/spree/shared/_header.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/spree/shared/_header.html.erb" afterDir="false" />
     </list>
     <ignored path="restaurant.iws" />
@@ -101,8 +100,8 @@
       <file leaf-file-name="_header.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/spree/shared/_header.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="114" column="31" selection-start-line="114" selection-start-column="31" selection-end-line="114" selection-end-column="31" />
+            <state relative-caret-position="162">
+              <caret line="115" column="69" selection-start-line="115" selection-start-column="69" selection-end-line="115" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -502,12 +501,12 @@
       <workItem from="1547614762238" duration="1000" />
       <workItem from="1550024152437" duration="1020000" />
       <workItem from="1553359957744" duration="2400000" />
-      <workItem from="1553570801535" duration="799000" />
+      <workItem from="1553570801535" duration="975000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42857000" />
+    <option name="totallyTimeSpent" value="43033000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="723" extended-state="6" />
@@ -900,8 +899,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/spree/shared/_header.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="114" column="31" selection-start-line="114" selection-start-column="31" selection-end-line="114" selection-end-column="31" />
+        <state relative-caret-position="162">
+          <caret line="115" column="69" selection-start-line="115" selection-start-column="69" selection-end-line="115" selection-end-column="69" />
         </state>
       </provider>
     </entry>
