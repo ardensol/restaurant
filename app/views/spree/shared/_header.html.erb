@@ -73,81 +73,47 @@
 							<div class="dropdown-inner">
 								<ul class="list-unstyled">
 									<li class="dropdown-header">Cooking Equipment</li>
-									<li><a tabindex="-1" href="/t/category/cooking-equipment/commercial-ovens">Commercial Ovens</a></li>
-									<li><a tabindex="-1" href="/t/category/cooking-equipment/flat-range-with-ovens">Flat-Range with Ovens</a></li>
-									<li><a tabindex="-1" href="/t/category/cooking-equipment/broiler">Broiler</a></li>
-									<li><a tabindex="-1" href="/t/category/cooking-equipment/stove">Stove</li>
-									<li><a tabindex="-1" href="/t/category/cooking-equipment/flat-griddle">Flat Griddle</a></li>
-									<li><a tabindex="-1" href="/t/category/cooking-equipment/fryer">Fryer</a></li>
-									<li><a tabindex="-1" href="/t/category/cooking-equipment/salamander">Salamander</a></li>
-									<li><a tabindex="-1" href="/t/category/cooking-equipment/countertop">Countertop</a></li>
-									<li><a tabindex="-1" href="/t/category/cooking-equipment/tilted-skillet">Tilted Skillet</a></li>
+									<li><a tabindex="-1" href="/t/ovens">Commercial Ovens</a></li>
+									<li><a tabindex="-1" href="/t/fryer">Fryer</a></li>
+                  <li><a tabindex="-1" href="/t/griddles">Griddles</a></li>
+                  <li><a tabindex="-1" href="/t/steam-cooking-equipment">Steam Cooking</a></li>
 
 								</ul>										
 								<ul class="list-unstyled">
 									<li class="dropdown-header">Refrigeration Equipment</li>
 									<li><a tabindex="-1" href="/t/category/refrigeration-equipment/bakery-display-case">Bakery & Display Case</a></li>
-									<li><a tabindex="-1" href="/t/category/refrigeration-equipment/bar-refrigeration">Bar Refrigeration</a></li>
-									<li><a tabindex="-1" href="/t/category/refrigeration-equipment/merchandiser">Merchandiser</a></li>
-									<li><a tabindex="-1" href="/t/category/refrigeration-equipment/prep-refrigeration">Prep Refrigeration</a></li>
-									<li><a tabindex="-1" href="/t/category/refrigeration-equipment/salad-bar">Salad Bar</a></li>
-									<li><a tabindex="-1" href="/t/category/refrigeration-equipment/stainless-steel-refrigerator">Stainless Steel Refrigerator</a></li>
-									<li><a tabindex="-1" href="/t/category/refrigeration-equipment/undercounter-worktop-refrigeration">Undercounter / Work Top Refrigeration</a></li>
+									<li><a tabindex="-1" href="/t/undercounter-refrigeration">Under Counter</a></li>
+									<li><a tabindex="-1" href="/t/merchandising-refrigeration">Merchandising Refrigeration</a></li>
 								</ul>
 								<ul class="list-unstyled">
 									<li class="dropdown-header">Sinks</li>
-									<li><a tabindex="-1" href="/t/category/sink/1-compartment">One Compartment</a></li>
-									<li><a tabindex="-1" href="/t/category/sink/2-compartment">Two Compartment</a></li>
-									<li><a tabindex="-1" href="/t/category/sink/3-compartment">Three Compartment</a></li>
-									<li><a tabindex="-1" href="/t/category/sink/bar-sink">Bar Sink</a></li>
-									<li><a tabindex="-1" href="/t/category/sink/vegetable-sink">Vegetable Sink</a></li>
-									<li><a tabindex="-1" href="/t/category/sink/hand-sink">Hand Sink</a></li>
+                  <%Spree::Taxon.where('permalink ILIKE ?', '%sink%').each do |sink| %>
+                    <li><a tabindex="-1" href="/t/<%= sink.permalink %>"><%= sink.name %></a></li>
+                  <% end %>
 								</ul>
 								<ul class="list-unstyled">
 									<li class="dropdown-header">Warming Equipment</li>
-									<li><a tabindex="-1" href="/t/category/warming-equipment/steam-table">Steam Table</a></li>
-
-									<li><a tabindex="-1" href="/t/category/warming-equipment/holding-proofing-cabinets">holding proofing cabinets</a></li>
-									<li><a tabindex="-1" href="/t/category/warming-equipment/counter-top-warmer">Counter Top Warmer</a></li>
-									<li><a tabindex="-1" href="/t/category/warming-equipment/heating-lamp">Heating Lamp</a></li>
-									<li><a tabindex="-1" href="/t/category/warming-equipment/other-food-warmers">Other Food Warmers</a></li>
+									<li><a tabindex="-1" href="/t/food-holding-and-warming-equipment">Food Warming</a></li>
 								</ul>
 								<ul class="list-unstyled">
 									<li class="dropdown-header">Beverage & Coffee Supplies</li>
-									<li><a tabindex="-1" href="/t/category/beverage-coffee-supplies/coffee-supplies">Coffee Supplies</a></li>
-
-									<li><a tabindex="-1" href="/t/category/beverage-coffee-supplies/beverage-dispenser">Beverage Dispenser</a></li>
-
-									<li><a tabindex="-1" href="/t/category/beverage-coffee-supplies/soda-machine">Soda Machine</a></li>
-
+									<li><a tabindex="-1" href="/t/coffee-maker-and-grinder">Coffee</a></li>
 								</ul>
 								<ul class="list-unstyled">
 									<li class="dropdown-header">Miscellaneous</li>
-									<li><a tabindex="-1" href="/t/category/miscellaneous/bar-equipment">Bar Equipment</a></li>
-
-									<li><a tabindex="-1" href="/t/category/miscellaneous/smallwares">Smallwares</a></li>
-
-									<li><a tabindex="-1" href="/t/category/miscellaneous/bakery">Bakery</a></li>
-									<li><a tabindex="-1" href="/t/category/miscellaneous/dining">Dining</a></li>
-									<li><a tabindex="-1" href="/t/category/miscellaneous/other">Other</a></li>
+									<li><a tabindex="-1" href="/t/bar-equipment">Bar Equipment</a></li>
+									<li><a tabindex="-1" href="/t/smallwares">Smallwares</a></li>
+									<li><a tabindex="-1" href="/t/bakery-equipment">Bakery</a></li>
+                  <li><a tabindex="-1" href="/t/tables">Tables</a></li>
 								</ul>
-																<ul class="list-unstyled">
-									<li class="dropdown-header">Storage</li>
-									<li><a tabindex="-1" href="/t/category/storage/file-cabinets">File Cabinets</a></li>
-									<li><a tabindex="-1" href="/t/category/storage/locker">locker</a></li>
-									<li><a tabindex="-1" href="/t/category/storage/pallet-racking">Pallet Racking</a></li>
-									<li><a tabindex="-1" href="/t/category/storage/rack">Rack</a></li>
-
-								</ul>
-
 							</div>
 						</div>
 					</li>
-					<li><a href="/t/category/refrigeration-equipment">Walk-In Refrigeration</a></li>
+					<li><a href="/t/refrigeration">Refrigeration</a></li>
 					<li><a href="/t/ice-machine">Ice Machines</a></li>
-					<li><a href="/t/category/dish-washer">Dish Washer</a></li>
+					<li><a href="/t/dish-washer">Dish Washer</a></li>
 					<li><a href="/t/hoods">Hoods</a></li>
-					<li><a href="/t/category/food-preparation">Food Preparation</a></li>
+					<li><a href="/t/food-preparation">Food Preparation</a></li>
 					<li><a href="/t/freezer">Freezer</a></li>
 					<li><a href="/t/dry-display-case">Dry Display Case</a></li>
 					<li><a href="/t/work-table">Work Table</a></li>
