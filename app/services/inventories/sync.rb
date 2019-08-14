@@ -11,10 +11,11 @@ module Inventories
       results = inventory_response['results']
       return unless results.present?
 
-      Spree::Product.where.not(eel_inventory_id: nil)
+      Spree::Product.unscoped.where.not(eel_inventory_id: nil)
         .update_all(
           archived: true,
-          available_on: nil
+          available_on: nil,
+          deleted_at: Time.now
         )
 
       results.each do |result|
@@ -34,7 +35,7 @@ module Inventories
       return unless (name = result['category']['name'])
       return unless (taxon = Spree::Taxon.find_by(name: name))
       inventory =
-        Spree::Product.find_or_initialize_by(
+        Spree::Product.unscoped.find_or_initialize_by(
           eel_inventory_id: result['id'].to_s
         )
       inventory.assign_attributes(
@@ -44,7 +45,8 @@ module Inventories
         taxon_ids: [taxon.id],
         description: result['external_description'],
         archived: false,
-        available_on: Time.now - 3.days
+        available_on: Time.now - 3.days,
+        deleted_at: nil
       )
 
       inventory.images.destroy_all if inventory.persisted?
@@ -99,9 +101,7 @@ module Inventories
 
     def inventory_response
       @inventory_response ||=
-        HTTParty
-        .get("#{EEL_BASE_URL}/api/v1/inventories", headers: headers)
-        .parsed_response
+        HTTParty.get("#{EEL_BASE_URL}/api/v1/inventories", headers: headers).parsed_response
     end
 
     def post_updates(inventory)
