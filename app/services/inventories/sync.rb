@@ -54,14 +54,15 @@ module Inventories
       inventory.save!
 
       if result['images'].present? && result['images'].size.positive?
-        result['images'].reverse.each_with_index do |image, idx|
+        result['images'].each_with_index do |image, idx|
           next unless image['display']
           im = inventory.images.build(
             s3_url: "https://#{clean_file(image['attachment_file_name'])}"
           )
           im.attachment = URI.parse(im.s3_url)
-          im.position = idx
           im.save
+
+          im.update_column :position, idx + 1
           im.attachment.reprocess!
         end
       end
