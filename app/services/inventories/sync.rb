@@ -54,7 +54,7 @@ module Inventories
       inventory.save!
 
       if result['images'].present? && result['images'].size.positive?
-        result['images'].each_with_index do |image, idx|
+        result['images'].reverse.each_with_index do |image, idx|
           next unless image['display']
           im = inventory.images.build(
             s3_url: "https://#{clean_file(image['attachment_file_name'])}"

@@ -16,33 +16,6 @@
   <component name="FavoritesManager">
     <favorites_list name="restaurant" />
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>products</find>
-      <find>HEl</find>
-      <find>search</find>
-      <find>httppar</find>
-      <find>price</find>
-      <find>images</find>
-      <find>class_eva</find>
-      <find>properties</find>
-      <find>permitted_re</find>
-      <find>attachment:</find>
-      <find>belongs_to Spre</find>
-      <find>ActiveRecord::</find>
-      <find>paperclip</find>
-      <find>retires</find>
-      <find>Twilio</find>
-      <find>url</find>
-      <find>positive?</find>
-      <find>product_image</find>
-      <find>https</find>
-      <find>http:</find>
-      <find>force_</find>
-      <find>blue-sea</find>
-      <find>hoods</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -126,7 +99,7 @@
       <workItem from="1565661168873" duration="1253000" />
       <workItem from="1565742566031" duration="867000" />
       <workItem from="1565911955677" duration="1000" />
-      <workItem from="1580789806191" duration="1858000" />
+      <workItem from="1580789806191" duration="3745000" />
     </task>
     <servers />
   </component>
@@ -145,9 +118,13 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="305" y="68" width="670" height="676" key="search.everywhere.popup" timestamp="1580792529692">
+    <state x="298" y="140" width="683" height="486" key="find.popup" timestamp="1580876351164">
       <screen x="0" y="23" width="1280" height="721" />
     </state>
-    <state x="305" y="68" width="670" height="676" key="search.everywhere.popup/0.23.1280.721@0.23.1280.721" timestamp="1580792529692" />
+    <state x="298" y="140" width="683" height="486" key="find.popup/0.23.1280.721@0.23.1280.721" timestamp="1580876351164" />
+    <state x="305" y="68" width="670" height="676" key="search.everywhere.popup" timestamp="1580876714875">
+      <screen x="0" y="23" width="1280" height="721" />
+    </state>
+    <state x="305" y="68" width="670" height="676" key="search.everywhere.popup/0.23.1280.721@0.23.1280.721" timestamp="1580876714875" />
   </component>
 </project>
