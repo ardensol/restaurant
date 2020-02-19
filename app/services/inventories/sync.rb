@@ -68,7 +68,7 @@ module Inventories
       end
 
       properties = result.slice(
-        'model', 'voltage'
+        'model', 'voltage', 'inventory_id'
       )
 
       properties = properties.select { |_k, v| v.present? }
