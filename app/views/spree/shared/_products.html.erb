@@ -29,7 +29,7 @@
       <div class="product-col">
         <% cache(@taxon.present? ? [I18n.locale, current_currency, @taxon, product] : [I18n.locale, current_currency, product]) do %>
           <div class="panel-body text-center product-body">
-            <%= link_to product_image(product, itemprop: "image"), url, itemprop: 'url', class: "img-responsive", style: 'width: 200px;'%><br/>
+            <%= link_to product_image(product, itemprop: "image", style: 'width: 200px;'), url, itemprop: 'url', class: "img-responsive", style: 'width: 200px;'%><br/>
           </div>
           <div class="panel-footer text-center">
             <span itemprop="offers" itemscope itemtype="http://schema.org/Offer">
