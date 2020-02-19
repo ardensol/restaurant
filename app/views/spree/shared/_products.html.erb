@@ -29,11 +29,11 @@
       <div class="product-col">
         <% cache(@taxon.present? ? [I18n.locale, current_currency, @taxon, product] : [I18n.locale, current_currency, product]) do %>
           <div class="panel-body text-center product-body">
-            <%= link_to small_image(product, itemprop: "image"), url, itemprop: 'url', class: "img-responsive" %><br/>
-            <%= link_to truncate(product.name, length: 50), url, class: 'info', itemprop: "name", title: product.name %>
+            <%= link_to product_image(product, itemprop: "image"), url, itemprop: 'url', class: "img-responsive", style: 'width: 100%;' %><br/>
           </div>
           <div class="panel-footer text-center">
             <span itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+               <%= link_to truncate(product.name, length: 50), url, class: 'info', itemprop: "name", title: product.name %>
               <span class="price" itemprop="price"><%= display_price(product) %></span>
             </span>
           </div>
