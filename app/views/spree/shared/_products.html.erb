@@ -28,7 +28,7 @@
     <div id="product_<%= product.id %>" class="col-md-3 col-sm-6" data-hook="products_list_item" itemscope itemtype="http://schema.org/Product">
       <div class="product-col">
         <% cache(@taxon.present? ? [I18n.locale, current_currency, @taxon, product] : [I18n.locale, current_currency, product]) do %>
-          <div class="panel-body text-center product-body">
+          <div class="panel-body text-center product-body" style="height: auto !important;">
             <%= link_to product_image(product, itemprop: "image", style: 'width: 200px;'), url, itemprop: 'url', class: "img-responsive", style: 'width: 200px;'%><br/>
           </div>
           <div class="panel-footer text-center">
