@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c497f425-fe67-4cb9-8a43-682de7ff3f9e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/inventories/sync.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/inventories/sync.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/spree/shared/_products.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/spree/shared/_products.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +101,7 @@
       <workItem from="1565911955677" duration="1000" />
       <workItem from="1580789806191" duration="6051000" />
       <workItem from="1581015656603" duration="8000" />
-      <workItem from="1582080640758" duration="1662000" />
+      <workItem from="1582080640758" duration="2230000" />
     </task>
     <servers />
   </component>
