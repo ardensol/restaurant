@@ -21,8 +21,8 @@ Rails.application.routes.draw do
 
   match "/blog" => redirect("http://www.eeleconomicrestaurantequipment.com/blog/"), via: :all 
 
-  # Example of regular route:
-  #   get 'products/:id' => 'catalog#view'
+  resources :subscribers, only: %i[create new]
+  post 'subscribers/new', to: 'subscribers#create'
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
