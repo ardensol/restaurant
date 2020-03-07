@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c497f425-fe67-4cb9-8a43-682de7ff3f9e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/subscribers_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/subscribers_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/spree/home/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/spree/home/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/subscribers/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/subscribers/new.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +110,8 @@
       <workItem from="1581015656603" duration="8000" />
       <workItem from="1582080640758" duration="5711000" />
       <workItem from="1582431948565" duration="558000" />
-      <workItem from="1583593512393" duration="5935000" />
+      <workItem from="1583593512393" duration="6200000" />
+      <workItem from="1583601908515" duration="211000" />
     </task>
     <servers />
   </component>
@@ -138,10 +140,10 @@
     <state x="298" y="130" width="683" height="547" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1583599658337" />
     <state x="298" y="139" width="683" height="486" key="find.popup/0.23.1280.712@0.23.1280.712" timestamp="1582084524887" />
     <state x="298" y="140" width="683" height="486" key="find.popup/0.23.1280.721@0.23.1280.721" timestamp="1580876351164" />
-    <state x="305" y="49" width="670" height="751" key="search.everywhere.popup" timestamp="1583599923707">
+    <state x="305" y="49" width="670" height="751" key="search.everywhere.popup" timestamp="1583601919689">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="305" y="49" width="670" height="751" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1583599923707" />
+    <state x="305" y="49" width="670" height="751" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1583601919689" />
     <state x="305" y="67" width="670" height="668" key="search.everywhere.popup/0.23.1280.712@0.23.1280.712" timestamp="1582431953311" />
     <state x="305" y="68" width="670" height="676" key="search.everywhere.popup/0.23.1280.721@0.23.1280.721" timestamp="1580877406680" />
   </component>
