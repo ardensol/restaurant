@@ -7,8 +7,11 @@ class SubscribersController < Spree::StoreController
 
     @response = post_updates
 
-    p @response
-    redirect_to root_path, notice: 'Successfully Subscribed'
+    if @response.response.code.to_i == 200
+      redirect_to root_path, notice: 'Successfully Subscribed'
+    else
+      redirect_to(new_subscriber_path, notice: 'Something went wrong.  Please contact us to subscribe')
+    end
   end
 
   def new
@@ -18,15 +21,14 @@ class SubscribersController < Spree::StoreController
   private
 
   def post_updates
-    byebug
     HTTParty.post(
       "#{EEL_BASE_URL}/api/v1/subscribers",
       headers: {
         'Content-Type' => 'application/json'
       },
-      params: {
+      body: {
         subscriber: subscriber_params.to_h
-      }
+      }.to_json
     )
   end
 
