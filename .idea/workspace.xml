@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c497f425-fe67-4cb9-8a43-682de7ff3f9e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/spree/shared/_products.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/spree/shared/_products.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/deploy" beforeDir="false" afterPath="$PROJECT_DIR$/bin/deploy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +109,7 @@
       <workItem from="1583886436795" duration="154000" />
       <workItem from="1584917511459" duration="228000" />
       <workItem from="1599441761265" duration="7000" />
-      <workItem from="1608395595661" duration="498000" />
+      <workItem from="1608395595661" duration="1019000" />
     </task>
     <servers />
   </component>
@@ -132,5 +132,9 @@
       <screen x="0" y="23" width="1280" height="716" />
     </state>
     <state x="298" y="136" width="683" height="486" key="find.popup/0.23.1280.716@0.23.1280.716" timestamp="1608395789759" />
+    <state x="305" y="63" width="670" height="676" key="search.everywhere.popup" timestamp="1608396827732">
+      <screen x="0" y="23" width="1280" height="716" />
+    </state>
+    <state x="305" y="63" width="670" height="676" key="search.everywhere.popup/0.23.1280.716@0.23.1280.716" timestamp="1608396827732" />
   </component>
 </project>
