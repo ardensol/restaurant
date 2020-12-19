@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c497f425-fe67-4cb9-8a43-682de7ff3f9e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/spree/taxons/show.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/spree/shared/_header.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/spree/shared/_header.html.erb" afterDir="false" />
     </list>
@@ -110,7 +109,7 @@
       <workItem from="1583886436795" duration="154000" />
       <workItem from="1584917511459" duration="228000" />
       <workItem from="1599441761265" duration="7000" />
-      <workItem from="1608395595661" duration="6781000" />
+      <workItem from="1608395595661" duration="7229000" />
     </task>
     <servers />
   </component>
@@ -137,9 +136,9 @@
       <screen x="0" y="23" width="1280" height="716" />
     </state>
     <state x="298" y="136" width="920" height="486" key="find.popup/0.23.1280.716@0.23.1280.716" timestamp="1608403183582" />
-    <state x="305" y="63" width="670" height="676" key="search.everywhere.popup" timestamp="1608397474646">
+    <state x="305" y="63" width="670" height="676" key="search.everywhere.popup" timestamp="1608403845616">
       <screen x="0" y="23" width="1280" height="716" />
     </state>
-    <state x="305" y="63" width="670" height="676" key="search.everywhere.popup/0.23.1280.716@0.23.1280.716" timestamp="1608397474646" />
+    <state x="305" y="63" width="670" height="676" key="search.everywhere.popup/0.23.1280.716@0.23.1280.716" timestamp="1608403845616" />
   </component>
 </project>

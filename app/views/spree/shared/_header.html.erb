@@ -69,6 +69,42 @@
 			<div class="collapse navbar-collapse navbar-cat-collapse">
 				<ul class="nav navbar-nav">
           <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="10">Restaurant Equipment</a>
+            <div class="dropdown-menu">
+              <div class="dropdown-inner">
+                <ul class="list-unstyled">
+                  <li class="dropdown-header">Sinks</li>
+                  <%Spree::Taxon.where('permalink ILIKE ?', '%sink%').each do |sink| %>
+                    <li><a tabindex="-1" href="/t/<%= sink.permalink %>"><%= sink.name %></a></li>
+                  <% end %>
+                </ul>
+                <ul class="list-unstyled">
+                  <li class="dropdown-header">Beverage & Coffee Supplies</li>
+                  <li><a tabindex="-1" href="/t/coffee-maker-and-grinder">Coffee</a></li>
+                </ul>
+                <ul class="list-unstyled">
+                  <li class="dropdown-header">Work Table</li>
+                  <li><a tabindex="-1" href="/t/work-table">Work Table</a></li>
+                  <li><a tabindex="-1" href="/t/prep-table">Prep Table</a></li>
+                </ul>
+                <ul class="list-unstyled">
+                  <li class="dropdown-header">Food Processors</li>
+                  <li><a tabindex="-1" href="/t/commercial-food-processor">Commercial Food Processor</a></li>
+                </ul>
+                <ul class="list-unstyled">
+                  <li class="dropdown-header">Miscellaneous</li>
+                  <li><a tabindex="-1" href="/t/smallwares">Smallwares</a></li>
+                  <li><a tabindex="-1" href="/t/tables">Tables</a></li>
+                  <li><a tabindex="-1" href="/t/chairs">Chairs</a></li>
+                  <li><a tabindex="-1" href="/t/popcorn-machines">Popcorn Machines</a></li>
+                  <li><a tabindex="-1" href="/t/exhaust-fan">Exhaust Fans</a></li>
+                  <li><a tabindex="-1" href="/t/lamps">Lamps</a></li>
+                  <li><a tabindex="-1" href="/t/meat-grinder">Meat Grinder</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="10">Cooking Equipment</a>
             <div class="dropdown-menu">
               <div class="dropdown-inner">
@@ -138,42 +174,6 @@
               </div>
             </div>
           </li>
-          <li class="dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="10">Restaurant Equipment</a>
-						<div class="dropdown-menu">
-							<div class="dropdown-inner">
-								<ul class="list-unstyled">
-									<li class="dropdown-header">Sinks</li>
-                  <%Spree::Taxon.where('permalink ILIKE ?', '%sink%').each do |sink| %>
-                    <li><a tabindex="-1" href="/t/<%= sink.permalink %>"><%= sink.name %></a></li>
-                  <% end %>
-								</ul>
-								<ul class="list-unstyled">
-									<li class="dropdown-header">Beverage & Coffee Supplies</li>
-									<li><a tabindex="-1" href="/t/coffee-maker-and-grinder">Coffee</a></li>
-								</ul>
-                <ul class="list-unstyled">
-                  <li class="dropdown-header">Work Table</li>
-                  <li><a tabindex="-1" href="/t/work-table">Work Table</a></li>
-                  <li><a tabindex="-1" href="/t/prep-table">Prep Table</a></li>
-                </ul>
-                <ul class="list-unstyled">
-                  <li class="dropdown-header">Food Processors</li>
-                  <li><a tabindex="-1" href="/t/commercial-food-processor">Commercial Food Processor</a></li>
-                </ul>
-								<ul class="list-unstyled">
-									<li class="dropdown-header">Miscellaneous</li>
-									<li><a tabindex="-1" href="/t/smallwares">Smallwares</a></li>
-                  <li><a tabindex="-1" href="/t/tables">Tables</a></li>
-                  <li><a tabindex="-1" href="/t/chairs">Chairs</a></li>
-                  <li><a tabindex="-1" href="/t/popcorn-machines">Popcorn Machines</a></li>
-                  <li><a tabindex="-1" href="/t/exhaust-fan">Exhaust Fans</a></li>
-                  <li><a tabindex="-1" href="/t/lamps">Lamps</a></li>
-                  <li><a tabindex="-1" href="/t/meat-grinder">Meat Grinder</a></li>
-								</ul>
-							</div>
-						</div>
-					</li>
           <li><a href="/t/walk-in">Walk In</a></li>
 					<li><a href="/t/dish-washer">Dish Washer</a></li>
 					<li><a href="/t/hoods">Hoods</a></li>
