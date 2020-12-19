@@ -1,11 +1,4 @@
 <!-- Wrapper Starts -->
-<style type="text/css">
-  #main-menu .dropdown-inner ul {
-    display: block;
-  }
-</style>
-
-
 	<div id="wrapper" class="container">
 <!-- Header Section Starts -->
 		<header id="header-area">
@@ -76,7 +69,7 @@
 			<div class="collapse navbar-collapse navbar-cat-collapse">
 				<ul class="nav navbar-nav">
           <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="10">Restaurant Equipment</a>
+            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="10">Cooking Equipment</a>
             <div class="dropdown-menu">
               <div class="dropdown-inner">
                 <ul class="list-unstyled">
@@ -93,49 +86,72 @@
             </div>
           </li>
           <li class="dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="10">Restaurant Equipment</a>
-						<div class="dropdown-menu">
-							<div class="dropdown-inner">
-								<ul class="list-unstyled">
-									<li class="dropdown-header">Cooking Equipment</li>
-									<li><a tabindex="-1" href="/t/ovens">Commercial Ovens</a></li>
-                  <li><a tabindex="-1" href="/t/range">Ranges</a></li>
-									<li><a tabindex="-1" href="/t/fryer">Fryer</a></li>
-                  <li><a tabindex="-1" href="/t/griddles">Griddles</a></li>
-                  <li><a tabindex="-1" href="/t/steam-cooking-equipment">Steam Cooking</a></li>
-                  <li><a tabindex="-1" href="/t/wok">Wok</a></li>
-                  <li><a tabindex="-1" href="/t/pasta-maker">Pasta Maker</a></li>
-								</ul>
-								<ul class="list-unstyled">
-									<li class="dropdown-header">Refrigeration Equipment</li>
-									<li><a tabindex="-1" href="/t/bakery-equipment">Bakery Equipment</a></li>
+            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="10">Refrigeration Equipment</a>
+            <div class="dropdown-menu">
+              <div class="dropdown-inner">
+                <ul class="list-unstyled">
+                  <li class="dropdown-header">Refrigeration Equipment</li>
                   <li><a tabindex="-1" href="/t/glass-door-refrigerator">Glass Door Refrigeration</a></li>
-									<li><a tabindex="-1" href="/t/undercounter-refrigeration">Under Counter</a></li>
-									<li><a tabindex="-1" href="/t/merchandising-refrigeration">Merchandising Refrigeration</a></li>
+                  <li><a tabindex="-1" href="/t/undercounter-refrigeration">Under Counter</a></li>
+                  <li><a tabindex="-1" href="/t/merchandising-refrigeration">Merchandising Refrigeration</a></li>
                   <li><a tabindex="-1" href="/t/freezer">Freezers</a></li>
-								</ul>
-								<ul class="list-unstyled">
-									<li class="dropdown-header">Sinks</li>
-                  <%Spree::Taxon.where('permalink ILIKE ?', '%sink%').each do |sink| %>
-                    <li><a tabindex="-1" href="/t/<%= sink.permalink %>"><%= sink.name %></a></li>
-                  <% end %>
-
-								</ul>
-								<ul class="list-unstyled">
-									<li class="dropdown-header">Warming Equipment</li>
-									<li><a tabindex="-1" href="/t/food-holding-and-warming-equipment">Food Warming</a></li>
-                  <li><a tabindex="-1" href="/t/toasters">Toasters</a></li>
-								</ul>
-								<ul class="list-unstyled">
-									<li class="dropdown-header">Beverage & Coffee Supplies</li>
-									<li><a tabindex="-1" href="/t/coffee-maker-and-grinder">Coffee</a></li>
-								</ul>
+                  <li><a href="/t/refrigeration">Refrigeration</a></li>
+                  <li><a href="/t/ice-machine">Ice Machines</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="10">Bakery Equipment</a>
+            <div class="dropdown-menu">
+              <div class="dropdown-inner">
+                <ul class="list-unstyled">
+                  <li class="dropdown-header">Bakery Equipment</li>
+                  <li><a tabindex="-1" href="/t/bakery-equipment">Bakery Equipment</a></li>
+                  <li><a tabindex="-1" href="/t/mixer">Mixer</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="10">Bar Equipment</a>
+            <div class="dropdown-menu">
+              <div class="dropdown-inner">
                 <ul class="list-unstyled">
                   <li class="dropdown-header">Bar Equipment</li>
                   <li><a tabindex="-1" href="/t/bar-equipment">Bar Equipment</a></li>
                   <li><a tabindex="-1" href="/t/ice-bin">Ice Bin</a></li>
                   <li><a tabindex="-1" href="/t/jockey-box">Jockey Box</a></li>
                 </ul>
+              </div>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="10">Food Holding Equipment</a>
+            <div class="dropdown-menu">
+              <div class="dropdown-inner">
+                <ul class="list-unstyled">
+                  <li class="dropdown-header">Food Holding & Warming Equipment</li>
+                  <li><a tabindex="-1" href="/t/food-holding-and-warming-equipment">Food Warming</a></li>
+                  <li><a tabindex="-1" href="/t/toasters">Toasters</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="10">Restaurant Equipment</a>
+						<div class="dropdown-menu">
+							<div class="dropdown-inner">
+								<ul class="list-unstyled">
+									<li class="dropdown-header">Sinks</li>
+                  <%Spree::Taxon.where('permalink ILIKE ?', '%sink%').each do |sink| %>
+                    <li><a tabindex="-1" href="/t/<%= sink.permalink %>"><%= sink.name %></a></li>
+                  <% end %>
+								</ul>
+								<ul class="list-unstyled">
+									<li class="dropdown-header">Beverage & Coffee Supplies</li>
+									<li><a tabindex="-1" href="/t/coffee-maker-and-grinder">Coffee</a></li>
+								</ul>
                 <ul class="list-unstyled">
                   <li class="dropdown-header">Work Table</li>
                   <li><a tabindex="-1" href="/t/work-table">Work Table</a></li>
@@ -156,7 +172,6 @@
 								<ul class="list-unstyled">
 									<li class="dropdown-header">Miscellaneous</li>
 									<li><a tabindex="-1" href="/t/smallwares">Smallwares</a></li>
-									<li><a tabindex="-1" href="/t/bakery-equipment">Bakery</a></li>
                   <li><a tabindex="-1" href="/t/tables">Tables</a></li>
                   <li><a tabindex="-1" href="/t/chairs">Chairs</a></li>
                   <li><a tabindex="-1" href="/t/popcorn-machines">Popcorn Machines</a></li>
@@ -166,8 +181,6 @@
 							</div>
 						</div>
 					</li>
-					<li><a href="/t/refrigeration">Refrigeration</a></li>
-					<li><a href="/t/ice-machine">Ice Machines</a></li>
           <li><a href="/t/walk-in">Walk In</a></li>
 					<li><a href="/t/dish-washer">Dish Washer</a></li>
 					<li><a href="/t/hoods">Hoods</a></li>
