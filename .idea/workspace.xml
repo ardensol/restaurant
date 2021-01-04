@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c497f425-fe67-4cb9-8a43-682de7ff3f9e" name="Default" comment="" />
+    <list default="true" id="c497f425-fe67-4cb9-8a43-682de7ff3f9e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/pg_monkeypatch.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/pg_monkeypatch.rb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,7 +110,7 @@
       <workItem from="1584917511459" duration="228000" />
       <workItem from="1599441761265" duration="7000" />
       <workItem from="1608395595661" duration="8117000" />
-      <workItem from="1609797504924" duration="512000" />
+      <workItem from="1609797504924" duration="1994000" />
     </task>
     <servers />
   </component>
@@ -134,9 +137,24 @@
       <screen x="0" y="23" width="1280" height="716" />
     </state>
     <state x="298" y="136" width="920" height="486" key="find.popup/0.23.1280.716@0.23.1280.716" timestamp="1608403183582" />
-    <state x="305" y="63" width="670" height="676" key="search.everywhere.popup" timestamp="1608404420353">
-      <screen x="0" y="23" width="1280" height="716" />
+    <state x="305" y="63" width="670" height="673" key="search.everywhere.popup" timestamp="1609798107249">
+      <screen x="0" y="23" width="1280" height="712" />
     </state>
+    <state x="305" y="63" width="670" height="673" key="search.everywhere.popup/0.23.1280.712@0.23.1280.712" timestamp="1609798107249" />
     <state x="305" y="63" width="670" height="676" key="search.everywhere.popup/0.23.1280.716@0.23.1280.716" timestamp="1608404420353" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/Gemfile</url>
+          <line>32</line>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

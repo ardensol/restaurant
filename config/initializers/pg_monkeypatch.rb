@@ -1,3 +1,4 @@
+require 'active_record/base'
 require 'active_record/connection_adapters/postgresql_adapter'
 
 module ActiveRecord
