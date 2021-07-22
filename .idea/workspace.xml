@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c497f425-fe67-4cb9-8a43-682de7ff3f9e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/pg_monkeypatch.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/pg_monkeypatch.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +110,13 @@
       <workItem from="1584917511459" duration="228000" />
       <workItem from="1599441761265" duration="7000" />
       <workItem from="1608395595661" duration="8117000" />
-      <workItem from="1609797504924" duration="1994000" />
+      <workItem from="1609797504924" duration="2947000" />
+      <workItem from="1611715035938" duration="2064000" />
+      <workItem from="1613499665462" duration="1763000" />
+      <workItem from="1615410861798" duration="401000" />
+      <workItem from="1615485413775" duration="590000" />
+      <workItem from="1623347553527" duration="2929000" />
+      <workItem from="1626929999110" duration="165000" />
     </task>
     <servers />
   </component>
@@ -137,10 +143,10 @@
       <screen x="0" y="23" width="1280" height="716" />
     </state>
     <state x="298" y="136" width="920" height="486" key="find.popup/0.23.1280.716@0.23.1280.716" timestamp="1608403183582" />
-    <state x="305" y="63" width="670" height="673" key="search.everywhere.popup" timestamp="1609798107249">
+    <state x="305" y="63" width="670" height="673" key="search.everywhere.popup" timestamp="1611715415715">
       <screen x="0" y="23" width="1280" height="712" />
     </state>
-    <state x="305" y="63" width="670" height="673" key="search.everywhere.popup/0.23.1280.712@0.23.1280.712" timestamp="1609798107249" />
+    <state x="305" y="63" width="670" height="673" key="search.everywhere.popup/0.23.1280.712@0.23.1280.712" timestamp="1611715415715" />
     <state x="305" y="63" width="670" height="676" key="search.everywhere.popup/0.23.1280.716@0.23.1280.716" timestamp="1608404420353" />
   </component>
   <component name="XDebuggerManager">
