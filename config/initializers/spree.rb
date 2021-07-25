@@ -32,7 +32,7 @@ Spree.config do |config|
       xlarge:   "555x555>"
     },
 
-    path:          "public/spree/products/:id/:style/:basename.:extension",
+    path:          "app/public/spree/products/:id/:style/:basename.:extension",
     default_url:   "/spree/products/:id/:style/:basename.:extension",
     default_style: "product",
   }
