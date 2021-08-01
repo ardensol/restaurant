@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c497f425-fe67-4cb9-8a43-682de7ff3f9e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/spree/layouts/spree_application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/spree/layouts/spree_application.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +117,7 @@
       <workItem from="1615485413775" duration="590000" />
       <workItem from="1623347553527" duration="2929000" />
       <workItem from="1626929999110" duration="165000" />
-      <workItem from="1627849061029" duration="17000" />
+      <workItem from="1627849061029" duration="466000" />
     </task>
     <servers />
   </component>
@@ -161,14 +161,16 @@
       <screen x="0" y="25" width="1280" height="705" />
     </state>
     <state x="429" y="86" key="VCS.ChangeListViewerDialog/0.25.1280.705@0.25.1280.705" timestamp="1627251086053" />
-    <state x="303" y="134" width="674" height="486" key="find.popup" timestamp="1627317043232">
-      <screen x="0" y="25" width="1280" height="705" />
+    <state x="303" y="134" width="674" height="489" key="find.popup" timestamp="1627849569879">
+      <screen x="0" y="25" width="1280" height="708" />
     </state>
     <state x="303" y="134" width="674" height="486" key="find.popup/0.25.1280.705@0.25.1280.705" timestamp="1627317043232" />
-    <state x="305" y="54" width="670" height="676" key="search.everywhere.popup" timestamp="1627317155014">
-      <screen x="0" y="25" width="1280" height="705" />
+    <state x="303" y="134" width="674" height="489" key="find.popup/0.25.1280.708@0.25.1280.708" timestamp="1627849569879" />
+    <state x="305" y="54" width="670" height="679" key="search.everywhere.popup" timestamp="1627849226012">
+      <screen x="0" y="25" width="1280" height="708" />
     </state>
     <state x="305" y="54" width="670" height="676" key="search.everywhere.popup/0.25.1280.705@0.25.1280.705" timestamp="1627317155014" />
+    <state x="305" y="54" width="670" height="679" key="search.everywhere.popup/0.25.1280.708@0.25.1280.708" timestamp="1627849226012" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
