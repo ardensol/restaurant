@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c497f425-fe67-4cb9-8a43-682de7ff3f9e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.rdoc" beforeDir="false" afterPath="$PROJECT_DIR$/README.rdoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/spree/layouts/spree_application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/spree/layouts/spree_application.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/spree/shared/_header.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/spree/shared/_header.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +128,7 @@
       <workItem from="1628265655966" duration="2531000" />
       <workItem from="1633115660288" duration="4576000" />
       <workItem from="1635180276899" duration="4242000" />
-      <workItem from="1637267265307" duration="1466000" />
+      <workItem from="1637267265307" duration="1866000" />
     </task>
     <servers />
   </component>
