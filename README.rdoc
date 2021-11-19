@@ -30,6 +30,12 @@ https://www.digitalocean.com/community/tutorials/how-to-deploy-a-rails-app-with-
 
 user is rails
 
+ENSURE ALL INSTALLATION IS DONE AS THAT USER NOT ROOT
+
+MAKE PIDS AND OTHER FILES WRITEABLE
+
+EACH FILE MUST BE CREATED
+
 file is in rails/rails_projects/restaurant
 
 sudo service unicorn_restaurant start
