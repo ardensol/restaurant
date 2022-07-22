@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/200Creative/spree_bootstrap_frontend.git
+  remote: https://github.com/200Creative/spree_bootstrap_frontend.git
   revision: d20c03352917ed2d36af11bacb19b88d459450d7
   branch: 2-4-stable
   specs:
@@ -17,7 +17,7 @@ GIT
       spree_bootstrap
 
 GIT
-  remote: git://github.com/spree-contrib/spree_contact_us.git
+  remote: https://github.com/spree-contrib/spree_contact_us.git
   revision: df5cec9a750c45868c818cf0e5f21c4abba2bfe4
   branch: 2-4-stable
   specs:
@@ -25,7 +25,7 @@ GIT
       spree_core (~> 2.4.1)
 
 GIT
-  remote: git://github.com/spree-contrib/spree_static_content.git
+  remote: https://github.com/spree-contrib/spree_static_content.git
   revision: 2455a91a2d940189979cb219790eb2063c371204
   branch: 2-4-stable
   specs:
@@ -33,7 +33,7 @@ GIT
       spree_core (~> 2.4.0)
 
 GIT
-  remote: git://github.com/spree/spree.git
+  remote: https://github.com/spree/spree.git
   revision: d0f34abce5950c103c5fe9d26611d53371a63d1d
   branch: 2-4-stable
   specs:
@@ -88,7 +88,7 @@ GIT
       spree_core (= 2.4.11.beta)
 
 GIT
-  remote: git://github.com/spree/spree_auth_devise.git
+  remote: https://github.com/spree/spree_auth_devise.git
   revision: 5a3857f8745736de6a7d4030c4a2c0493a3eb574
   branch: 2-4-stable
   specs:
@@ -100,7 +100,7 @@ GIT
       spree_core (~> 2.4.0)
 
 GIT
-  remote: git://github.com/spree/spree_gateway.git
+  remote: https://github.com/spree/spree_gateway.git
   revision: 8b467972524fea67b3dea5af71cde92ebb32ca8e
   branch: 2-4-stable
   specs:
@@ -149,7 +149,7 @@ GEM
       tzinfo (~> 1.1)
     acts_as_list (0.9.19)
       activerecord (>= 3.0)
-    addressable (2.7.0)
+    addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
     arel (5.0.1.20140414130214)
     awesome_nested_set (3.0.3)
@@ -157,7 +157,7 @@ GEM
     aws-sdk-v1 (1.67.0)
       json (~> 1.4)
       nokogiri (~> 1)
-    bcrypt (3.1.16)
+    bcrypt (3.1.18)
     bootstrap-kaminari-views (0.0.5)
       kaminari (>= 0.13)
       rails (>= 3.1)
@@ -207,8 +207,8 @@ GEM
     erubis (2.7.0)
     execjs (2.7.0)
     ffaker (1.32.1)
-    font-awesome-rails (4.7.0.5)
-      railties (>= 3.2, < 6.1)
+    font-awesome-rails (4.7.0.8)
+      railties (>= 3.2, < 8.0)
     friendly_id (5.0.5)
       activerecord (>= 4.0.0)
     highline (1.6.21)
@@ -240,9 +240,9 @@ GEM
     mini_mime (1.0.2)
     mini_portile2 (2.1.0)
     minitest (5.14.2)
-    monetize (1.9.4)
+    monetize (1.12.0)
       money (~> 6.12)
-    money (6.13.8)
+    money (6.16.0)
       i18n (>= 0.6.4, <= 2)
     multi_json (1.15.0)
     multi_xml (0.6.0)
@@ -275,7 +275,7 @@ GEM
     premailer-rails (1.11.1)
       actionmailer (>= 3)
       premailer (~> 1.7, >= 1.7.9)
-    public_suffix (4.0.6)
+    public_suffix (4.0.7)
     rabl (0.9.4.pre1)
       activesupport (>= 2.3.14)
     rack (1.5.5)
@@ -351,7 +351,7 @@ GEM
       camertron-eprun
       cldr-plurals-runtime-rb (~> 1.0)
       tzinfo
-    tzinfo (1.2.9)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
