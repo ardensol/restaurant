@@ -6,9 +6,12 @@ module Inventories
 
     EEL_BASE_URL = 'https://eel-inventory.herokuapp.com'.freeze
 
+    def execute_single(inventory)
+      create_inventory(inventory)
+    end
 
     def execute
-      results = inventory_response['results']
+      # results = inventory_response['results']
       return unless results.present?
 
       Spree::Product.unscoped.where.not(eel_inventory_id: nil)
