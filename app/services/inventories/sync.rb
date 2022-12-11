@@ -7,7 +7,11 @@ module Inventories
     EEL_BASE_URL = 'https://eel-inventory.herokuapp.com'.freeze
 
     def execute_single(inventory)
-      create_inventory(inventory)
+      if inventory['status'] == 'sold'
+        destroy_inventory(inventory)
+      else
+        create_inventory(inventory)
+      end
     end
 
     def execute
@@ -32,6 +36,19 @@ module Inventories
     end
 
     private
+
+    def destroy_inventory(result)
+      inventory =
+        Spree::Product.unscoped.find_or_initialize_by(
+          eel_inventory_id: result['id'].to_s
+        )
+
+      inventory.update(
+        archived: true,
+        available_on: nil,
+        deleted_at: Time.now
+      )
+    end
 
     def create_inventory(result)
       return unless result['category']
