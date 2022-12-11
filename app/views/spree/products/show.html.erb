@@ -40,6 +40,9 @@
 
             <div id="cart-form" data-hook="cart_form">
               <h4>Please contact us at 480-448-2875 to purchase.</h4>
+              <% date = @product.updated_at || @product.created_at %>
+              <br />
+              <p>This Product was last updated on <%= date.strftime("%m/%d/%Y") %> </p>
             </div>
 
           </div>
