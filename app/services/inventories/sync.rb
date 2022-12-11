@@ -81,7 +81,7 @@ module Inventories
               s3_url: "https://#{clean_file(image['attachment_file_name'])}"
             )
             im.attachment = URI.parse(im.s3_url)
-            im.save(validate: false)
+            im.save
 
             im.update_column :position, idx + 1
             im.attachment.reprocess!
