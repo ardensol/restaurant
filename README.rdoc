@@ -39,3 +39,11 @@ EACH FILE MUST BE CREATED
 file is in rails/rails_projects/restaurant
 
 sudo service unicorn_restaurant start
+
+If it wont' start due to uniocrn address in use find the pid by running
+
+ps aux | grep unicorn
+
+then kill -9 it
+
+

@@ -7,7 +7,7 @@ module Inventories
     EEL_BASE_URL = 'https://eel-inventory.herokuapp.com'.freeze
 
     def execute_single(inventory)
-      if inventory['status'] == 'sold'
+      if inventory['status'] != 'in_stock'
         destroy_inventory(inventory)
       else
         create_inventory(inventory)

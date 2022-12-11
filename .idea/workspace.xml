@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c497f425-fe67-4cb9-8a43-682de7ff3f9e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/webhooks_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/webhooks_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.rdoc" beforeDir="false" afterPath="$PROJECT_DIR$/README.rdoc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/services/inventories/sync.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/inventories/sync.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
