@@ -1,5 +1,13 @@
 require 'paperclip'
 
+module Paperclip
+  class MediaTypeSpoofDetector
+    def spoofed?
+      false
+    end
+  end
+end
+
 module VerifyMimeType
   # Open remote file using underlying OS and check if its mime type matches what Paperclip
   # thinks it is. Sometimes images uploaded from the web or mobile are determined to have
