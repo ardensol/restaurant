@@ -53,7 +53,7 @@ module Inventories
     def create_inventory(result)
       return unless result['category']
       return unless (name = result['category']['name'])
-      return unless (taxon = Spree::Taxon.find_by(name: name.strip))
+      return unless (taxon = Spree::Taxon.where("name ILIKE ?", name.strip))
       inventory =
         Spree::Product.unscoped.find_or_initialize_by(
           eel_inventory_id: result['id'].to_s
