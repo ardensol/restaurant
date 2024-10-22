@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c497f425-fe67-4cb9-8a43-682de7ff3f9e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/services/inventories/sync.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/inventories/sync.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/postgresql-12-readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.rdoc" beforeDir="false" afterPath="$PROJECT_DIR$/README.rdoc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +25,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1XKLO0iGzNTO3Rkitm9kazyraEU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -37,7 +42,7 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="advanced.settings" />
   </component>
@@ -125,6 +130,8 @@
       <workItem from="1633115660288" duration="4576000" />
       <workItem from="1635180276899" duration="4242000" />
       <workItem from="1637267265307" duration="2682000" />
+      <workItem from="1717961793501" duration="6000" />
+      <workItem from="1729564609765" duration="2707000" />
     </task>
     <servers />
   </component>
@@ -144,7 +151,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">

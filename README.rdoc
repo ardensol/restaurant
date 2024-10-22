@@ -15,6 +15,7 @@ Things you may want to cover:
 
 * Database initialization
 
+
 * How to run the test suite
 
 * Services (job queues, cache servers, search engines, etc.)
@@ -22,6 +23,8 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+User is csolorio @gmail on Digital Ocean
 
 
 Please feel free to use a different markup language if you do not plan to run
@@ -47,3 +50,6 @@ ps aux | grep unicorn
 then kill -9 it
 
 
+su rails
+
+bundle exec unicorn -c config/unicorn.rb -E production
