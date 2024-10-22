@@ -58,7 +58,7 @@ netstat  -tunelp | grep 5432
 
 root@staging-primary-db:/var/backups# pg_dump -h db-postgresql-sfo2-56908-do-user-1240540-0.b.db.ondigitalocean.com -p 25060 -U doadmin -Fc -b -v -f backup-10-21-24.sql -d  defaultdb
 
-pg_restore -v -h localhost -U postgres -d postgres -j 2 infotrader-backup-10-07-24-staging.sql
+pg_restore -v -h localhost -U postgres -d postgres -j 2 backup-10-21-24.sql
 
 RUN VACUUM FULL;
 
