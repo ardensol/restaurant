@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c497f425-fe67-4cb9-8a43-682de7ff3f9e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/nginx-readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/postgresql-9-readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/unicorn_service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.rdoc" beforeDir="false" afterPath="$PROJECT_DIR$/README.rdoc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +133,7 @@
       <workItem from="1635180276899" duration="4242000" />
       <workItem from="1637267265307" duration="2682000" />
       <workItem from="1717961793501" duration="6000" />
-      <workItem from="1729564609765" duration="4404000" />
+      <workItem from="1729564609765" duration="9695000" />
     </task>
     <servers />
   </component>
